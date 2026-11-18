@@ -1,0 +1,14 @@
+# sys_mssi_64_64only_cn_armv82-user 17 CP2A.260605.016 1793807870822 release-keys
+- manufacturer: realme
+- platform: common
+- codename: RE6090L1
+- flavor: sys_mssi_64_64only_cn_armv82-user
+- release: 17
+- id: CP2A.260605.016
+- incremental: V.R4T2.4579dd3-1ea76e3-1ea76e2
+- tags: release-keys
+- fingerprint: realme/RMX5085IN/RE6090L1:17/CP2A.260605.016/V.R4T2.4579dd3-1ea76e3-1ea76e2:user/release-keys
+- is_ab: true
+- brand: realme
+- branch: sys_mssi_64_64only_cn_armv82-user-17-CP2A.260605.016-1793807870822-release-keys
+- repo: realme_re6090l1_dump
