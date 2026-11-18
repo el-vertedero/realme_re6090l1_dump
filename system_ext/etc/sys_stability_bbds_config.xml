@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<filter-conf>
+    <version>2026092801</version>
+    <filter-name>sys_stability_bbds_config</filter-name>
+    <resource type="1" name="PendingIntentRecord" enable="true" threshold="10000" action="none"       logswitch="true"></resource>
+    <resource type="2" name="ServiceConnection"   enable="true" threshold="2000"  action="none"       logswitch="true"></resource>
+    <resource type="3" name="Receivers"           enable="true" threshold="900"   action="none"       logswitch="true"></resource>
+    <resource type="4" name="Alarms"              enable="true" threshold="500"   action="none"       logswitch="true"></resource>
+    <resource type="5" name="BinderThread"        enable="true" threshold="500"   action="none"       logswitch="true"></resource>
+    <resource type="6" name="BinderParcelSize"    enable="true" threshold="200"   action="none"       logswitch="true"></resource>
+    <resource type="7" name="BinderBufferSize"    enable="true" threshold="-1"    action="none"       logswitch="true"></resource>
+    <resource type="8" name="OutOfResource"       enable="true" threshold="-1"    action="none"       logswitch="true"></resource>
+    <resource type="9" name="Thread"              enable="true" threshold="-1"    action="none"       logswitch="true"></resource>
+    <resource type="10" name="Lowmem"             enable="true" threshold="-1"    action="none"       logswitch="true"></resource>
+    <resource type="11" name="BinderPendTransact" enable="true" threshold="-1"    action="none"       logswitch="true"></resource>
+    <GmsWVRestrictedSwitch>2</GmsWVRestrictedSwitch>
+    <GservicesRestrictedSwitch>1</GservicesRestrictedSwitch>
+    <GservicesRestrictedList>
+        <gservices_restricted_app name="com.tencent.mm" />
+    </GservicesRestrictedList>
+    <skipAnrReportSwitch>1</skipAnrReportSwitch>
+    <InterceptNfwAnrSwitch>true</InterceptNfwAnrSwitch>
+    <InterceptBcAnrSwitch>true</InterceptBcAnrSwitch>
+    <BinderStacktraceDumpEnabled>true</BinderStacktraceDumpEnabled>
+    <SigchainFreezeInPreDailyOta>1</SigchainFreezeInPreDailyOta>
+    <doDumpSwitch>1</doDumpSwitch>
+    <BindTopAppSwitch>1</BindTopAppSwitch>
+    <!-- ANR timeouts grouped under <AnrTimeoutConfig> (6 channels only;
+         other BBDS tags use normal RomUpdate). Parser matches child tag
+         names regardless of nesting (XmlPullParser START_TAG by name),
+         except optional <AnrTimeoutMemTier ramGb="4|6|8|12|16|24|32">
+         which scopes channels by commercial RAM after the 3-way version
+         source wins (domestic and export).
+         If this document has no <AnrTimeoutMemTier> blocks (only flat
+         channel tags), ALL devices use those flat values regardless of RAM.
+         Flat channel tags below are also the fallback when no MemTier
+         matches (exact GB, else nearest configured ≤ device GB).
+         Values are nominal AOSP 1x ms; clamp [base*HW, 3*base*HW] at apply.
+         3-way select (boot + after RUS DATA write/delete): among existing
+           DATA  /data/system/sys_stability_bbds_config.xml  → <AnrTimeoutVersion>
+           product /my_product/etc/oplus_anr_timeout_config.xml → <version>
+           SYS   /system/system_ext/etc/sys_stability_bbds_config.xml → <AnrTimeoutVersion>
+         Missing file or missing ANR version tag → skip that candidate.
+         Do NOT use top-level BBDS <version> for ANR competition.
+         Newest wins; equal → DATA > product > SYS. No DATA ⇒ still product vs SYS. -->
+    <AnrTimeoutConfig>
+        <AnrTimeoutVersion>2026100801</AnrTimeoutVersion>
+        <!-- Flat defaults: without any live <AnrTimeoutMemTier>, ALL devices
+             use these channel values regardless of RAM. -->
+        <InputAnrTimeoutMs>5000</InputAnrTimeoutMs>
+        <FgBroadcastAnrTimeoutMs>10000</FgBroadcastAnrTimeoutMs>
+        <BgBroadcastAnrTimeoutMs>60000</BgBroadcastAnrTimeoutMs>
+        <FgServiceAnrTimeoutMs>20000</FgServiceAnrTimeoutMs>
+        <BgServiceAnrTimeoutMs>200000</BgServiceAnrTimeoutMs>
+        <JobAnrTimeoutMs>8000</JobAnrTimeoutMs>
+        <!-- Optional RAM tiers (ramGb="4|6|8|12|16|24|32"): uncomment and add
+             more tiers as needed. Example for 4 GB only (commented = inactive):
+        <AnrTimeoutMemTier ramGb="4">
+            <InputAnrTimeoutMs>7500</InputAnrTimeoutMs>
+            <FgBroadcastAnrTimeoutMs>15000</FgBroadcastAnrTimeoutMs>
+            <BgBroadcastAnrTimeoutMs>90000</BgBroadcastAnrTimeoutMs>
+            <FgServiceAnrTimeoutMs>30000</FgServiceAnrTimeoutMs>
+            <BgServiceAnrTimeoutMs>300000</BgServiceAnrTimeoutMs>
+            <JobAnrTimeoutMs>12000</JobAnrTimeoutMs>
+        </AnrTimeoutMemTier>
+        -->
+    </AnrTimeoutConfig>
+</filter-conf>

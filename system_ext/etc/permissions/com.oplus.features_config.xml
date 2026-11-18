@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<oplus-config>
+    <oplus-feature name="oplus.software.color_split_feature"/>
+    <!-- Zhen.Wu@ANDROID.PMS, 2026/04/24 , Synchronous OPPO PMS feature-->
+    <oplus-feature name="oplus.software.pms_restrict_protected_app_install"/>
+    <!-- Qiongbao.Li@ANDROID.Input, 2026/07/29 -->
+    <oplus-feature name="oplus.software.powerkey_disbale_turnoff_torch"/>
+</oplus-config>

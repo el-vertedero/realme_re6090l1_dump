@@ -1,0 +1,6 @@
+# oplus/system/core_sys/oplus_theia/self_init_theia.rc
+on property:sys.boot_completed=1 && property:ro.oplus.memory.size=4 && property:persist.vendor.oplus.close_theia=1
+    stop oplus_theias
+
+on property:persist.vendor.oplus.close_theia=2
+    start oplus_theias
