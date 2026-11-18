@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app>
+<del_disable pkg="com.finshell.fin" name="FinShellPay.apk" priority="6"/>
+<del_enable pkg="com.finshell.fin" name="FinShellPay.apk" priority="6"/>
+<del_disable pkg="com.fintech.life" name="Fineasy.apk" priority="6"/>
+<enable pkg="com.oplus.accesscard" priority="6"/>
+</app>

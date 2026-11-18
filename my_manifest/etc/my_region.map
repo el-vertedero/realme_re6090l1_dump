@@ -1,0 +1,16 @@
+//my_region/decouping_wallpaper/daynightcore/india_fall_night.png 6-317
+//my_region/decouping_wallpaper/daynightcore/india_morning.png 318-628
+//my_region/decouping_wallpaper/daynightcore/india_night.png 629-961
+//my_region/decouping_wallpaper/daynightcore/india_noon.png 962-1280
+//my_region/etc/oplus_carrier_config.xml 1282
+//my_region/etc/aisubsystem/Plugin/plugin-cloud_livephoto_matting-185622557-1006-full-in-33-aall-release.apk 1284-1589
+//my_region/etc/extension/com.oplus.app-features.xml 1592-1594
+//my_region/etc/startup/blacklist_default.xml 1596-1599
+//my_region/etc/startup/safe_boot_whitelist.xml 1600-1601
+//my_region/etc/startup/sys_startup_v3_config_list.xml 1602-1607
+//my_region/etc/startup/sys_startupmanager_config_list.xml 1608-1610
+//my_region/global/oplus_carrier_list.xml 1611-1614
+//my_region/global/etc/launcher/app_category 1767-2361
+//my_region/overlay/dtpb-dw-overlay-signed.apk 2362-2363
+//my_region/priv-app/OplusCallRecorder/OplusCallRecorder.apk 2364-2863
+//my_region/priv-app/OplusCallRecorder/oat/arm64/OplusCallRecorder.vdex 2865-2871
