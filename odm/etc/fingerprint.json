@@ -1,0 +1,78 @@
+[
+    {
+        "project":"24720",
+        "name":"default",
+        "product":"RMX5085",
+        "device":"RE6090L1",
+        "model":"RMX5085",
+        "release" :"17",
+        "codename":"17",
+        "brand": "realme",
+        "manufacturer": "realme",
+        "rsa_level" : "R4T2",
+        "first_api_level":"35"
+    },
+    {
+        "project":"24720",
+        "name":"in",
+        "product":"RMX5085IN",
+        "device":"RE6090L1",
+        "model":"RMX5085",
+        "release" :"17",
+        "codename":"17",
+        "brand": "realme",
+        "manufacturer": "realme",
+        "rsa_level" : "R4T2",
+        "first_api_level":"35"
+    },
+    {
+        "project":"24720",
+        "name":"eea",
+        "product":"RMX5085EEA",
+        "device":"RE6090L1",
+        "model":"RMX5085",
+        "release" :"17",
+        "codename":"17",
+        "brand": "realme",
+        "manufacturer": "realme",
+        "rsa_level" : "R4T2",
+        "first_api_level":"35"
+    },
+    {
+        "project":"24720",
+        "name":"row",
+        "product":"RMX5085",
+        "device":"RE6090L1",
+        "model":"RMX5085",
+        "release" :"17",
+        "codename":"17",
+        "brand": "realme",
+        "manufacturer": "realme",
+        "rsa_level" : "R4T2",
+        "first_api_level":"35"
+    },
+    {
+        "project":"24720",
+        "name":"ru",
+        "product":"RMX5085RU",
+        "device":"RE6090L1",
+        "model":"RMX5085",
+        "release" :"17",
+        "codename":"17",
+        "brand": "realme",
+        "manufacturer": "realme",
+        "first_api_level":"35"
+    },
+    {
+        "project":"24720",
+        "name":"tr",
+        "product":"RMX5085TR",
+        "device":"RE6090L1",
+        "model":"RMX5085",
+        "release" :"17",
+        "codename":"17",
+        "brand": "realme",
+        "manufacturer": "realme",
+        "first_api_level":"35"
+    }
+]

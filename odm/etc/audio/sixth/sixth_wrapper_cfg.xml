@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<sixth_wrapper_config version="1.0.2">
+    <config_element name="sipa_ctl_prefix" left_ctl="SpkrLeft" right_ctl="SpkrRight" 
+        description="set kctl prefix"/>
+    <config_element name="hpf" enable="0" frq1="109" frq2="53" chiptype1="13" chiptype2="14" description="set hpf req"/>
+    <config_element name="vdd" enable="0" opt="1" battery_node="/sys/devices/platform/soc/soc:oplus,mms_gauge/oplus_mms/gauge/battery/voltage_now"
+        vdd_step="10000" description="read vdd and set ad_hoc gain, vdd_step(mv)">
+        <value_map_0 threshold="3800"    ratio_value ="100,100"   sthresh ="7200000,7600000"   description="ad_hoc ratio/sthresh"/>
+        <value_map_0 threshold="3720"    ratio_value ="90,90"     sthresh ="6100000,6500000"   description="ad_hoc ratio/sthresh"/>
+        <value_map_0 threshold="3600"    ratio_value ="85,85"     sthresh ="5200000,5600000"   description="ad_hoc ratio/sthresh"/>
+        <value_map_0 threshold="3450"    ratio_value ="80,80"     sthresh ="4100000,4500000"   description="ad_hoc ratio/sthresh"/>
+        <value_map_0 threshold="3350"    ratio_value ="75,75"     sthresh ="3300000,3700000"   description="ad_hoc ratio/sthresh"/>
+        <value_map_0 threshold="0"       ratio_value ="70,70"     sthresh ="3050000,3450000"   description="ad_hoc ratio/sthresh"/>
+        <value_map_1 threshold="3800"    ratio_value ="100,100"   sthresh ="7200000,7600000"   description="ad_hoc ratio/sthresh"/>
+        <value_map_1 threshold="3720"    ratio_value ="90,90"     sthresh ="6100000,6500000"   description="ad_hoc ratio/sthresh"/>
+        <value_map_1 threshold="3600"    ratio_value ="85,85"     sthresh ="5200000,5600000"   description="ad_hoc ratio/sthresh"/>
+        <value_map_1 threshold="3450"    ratio_value ="80,80"     sthresh ="4100000,4500000"   description="ad_hoc ratio/sthresh"/>
+        <value_map_1 threshold="3350"    ratio_value ="75,75"     sthresh ="3300000,3700000"   description="ad_hoc ratio/sthresh"/>
+        <value_map_1 threshold="0"       ratio_value ="70,70"     sthresh ="3050000,3450000"   description="ad_hoc ratio/sthresh"/>
+    </config_element> 
+    <config_element name="timer_cfg" enable="1" description="turn on/off timer"/>
+    <config_element name="debug_cfg" enable="0" description="turn on/off debug msg"/>
+    <config_element name="pvdd_limit_cfg" enable="0" description="turn on/off pvdd limit"/>
+    <config_element name="lp_protect_cfg" enable="1" description="turn on/off interval set lp value"/>
+    <config_element name="algo_val_set" enable="1" cali_file_path="/mnt/vendor/persist/media" 
+                                cali_file_name="sipa_w.bin" description="set algo param, eg, r0, f0"/>
+    <config_element name="lp_set" enable="1" description="Is init lp value"/>
+    <config_element name="splice_data" update_cnt_num="429" fade_time1="200" lk_time="29" delta_time="30"
+                                fade_io_at_time="100" ori_data_gain="80" description="lk_t(ms), delta_t(ms), at(ms)"/>
+    <config_element name="iv_comp" enable="1" chiptype="9" description="close iv comp"/>
+</sixth_wrapper_config>

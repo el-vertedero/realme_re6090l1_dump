@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<FIRMWARE>
+		<File name="HN8T274EJKX130" manufacturer="SKhynix" target_version="A300"></File>
+		<File name="HN8T174EJKX075" manufacturer="SKhynix" target_version="A300"></File>
+		<File name="MT001TAYAX8U40" manufacturer="MICRON" target_version="0108"></File>
+		<File name="KLUEG4RHHD-B0G1" manufacturer="SAMSUNG" target_version="2301"></File>
+		<File name="KLUFG8RHHD-B0G1" manufacturer="SAMSUNG" target_version="2301"></File>
+		<File name="KLUGGARHHD-B0G1" manufacturer="SAMSUNG" target_version="2301"></File>
+		<File name="N8T05DEHKX073" manufacturer="SKhynix" target_version="A300"></File>
+</FIRMWARE>
+
