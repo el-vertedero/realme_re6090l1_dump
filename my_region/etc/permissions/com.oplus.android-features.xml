@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+	<feature name="com.android.systemui.lockscreen_shortcut_settings_enable"/>
+	<feature name="com.google.android.feature.qsb_at_bottom"/>
+</permissions>
+<!-- Timestamp 2026-07-14T11:37:02 #1553861 -->

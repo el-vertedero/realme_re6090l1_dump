@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<permissions>
+	<privapp-permissions package="com.coloros.phonemanager">
+		<permission name="android.permission.CONTROL_INCALL_EXPERIENCE"/>
+		<permission name="android.permission.START_FOREGROUND_SERVICES_FROM_BACKGROUND"/>
+		<permission name="android.permission.MODIFY_AUDIO_ROUTING"/>
+	</privapp-permissions>
+</permissions>
+<!-- Timestamp 2026-05-09T10:26:14 #1457391 -->

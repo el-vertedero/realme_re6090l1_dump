@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="com.android.phone.network_mode_cust_hide_list">
+		<StringList args="oplus_2g_only_auto:hide;oplus_3g_2g_auto:hide"/>
+	</app_feature>
+	<app_feature name="com.android.incallui.show_single_replace_of_conference"/>
+	<app_feature name="com.android.incallui.disable_change_to_voice_on_remote_hold" args="boolean:true"/>
+</extend_features>
+<!-- Timestamp 2026-10-31T13:41:16 #93b15a91-8235-4dcb-a3e2-73dfdd2e6b28 -->

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extend_features>
+	<app_feature name="os.tool.onetrace.performance.ood" args="boolean:true"/>
+	<app_feature name="os.tool.onetrace.performance.ottrace" args="boolean:false"/>
+	<app_feature name="os.tool.onetrace.thermal.metric" args="boolean:true"/>
+	<app_feature name="os.tool.onetrace.thermal.detect" args="boolean:true"/>
+	<app_feature name="os.tool.onetrace.thermal.ostats" args="boolean:true"/>
+	<app_feature name="com.oplus.tzupdate.timezone_url" args="String:https://weather-api-in.allawnos.com"/>
+	<app_feature name="com.oplusos.deepthinker.apptype.host" args="String:classify-app-in.allawnos.com"/>
+	<app_feature name="com.android.launcher.REGION_NAME" args="String:IN"/>
+	<app_feature name="com.android.launcher.DEFAULT_DRAWER_MODE"/>
+	<app_feature name="com.oplus.eap.cloud_storage_release_host_v3" args="String:https://ostorage-ocloud-in.allawnos.com"/>
+	<app_feature name="com.oplus.eap.anr_crash.logfile.switch" args="boolean:true"/>
+	<app_feature name="com.oplus.eap.anr_crash.statistics.switch" args="boolean:true"/>
+	<app_feature name="com.oplus.eap.release_host" args="String:https://moa-upload-in.allawnos.com"/>
+	<app_feature name="com.android.systemui.support_shutdownview_emergency_call"/>
+	<app_feature name="com.android.systemui.support_black_screen" args="boolean:true"/>
+	<app_feature name="com.oplus.cosa.server_url_spec" args="String:https://icosa-service-in.allawnos.com"/>
+	<app_feature name="com.oplus.cosa.server_url_test_spec" args="String:https://icosa-service-in.allawnos.com"/>
+	<app_feature name="dft.logkit.ostorage_url" args="String:https://ostorage-ocloud-in.allawnos.com"/>
+	<app_feature name="dft.logkit.feedback_server_url" args="String:https://ilogkit-service-in.allawnos.com"/>
+	<app_feature name="com.oplus.wallpapers.online_wallpaper.host" args="String:https://module-dist-in.allawnos.com"/>
+	<app_feature name="wallpaper.live.india_wallpaper.show" args="boolean:true"/>
+	<app_feature name="com.oplus.uxdesign.language.host" args="String:https://lang-server-in.allawnos.com"/>
+	<app_feature name="com.oplus.uxdesign.icons.host" args="String:https://gui-server-in.allawnos.com"/>
+	<app_feature name="com.oplus.aod.support_app_host" args="String:https://aodscene-service-in.allawnos.com"/>
+	<app_feature name="com.oplus.aod.scene_info_enable" args="boolean:true"/>
+	<app_feature name="com.oplus.logkit.support_upload" args="boolean:true"/>
+	<app_feature name="com.oplus.uxdesign.uxcolor.host" args="String:https://globalcolor-service-in.allawnos.com"/>
+	<app_feature name="com.android.phone.simsettings.domestic_demand_region" args="String:IN"/>
+	<app_feature name="com.android.phone.srvcc_singleline_not_show_conference"/>
+	<app_feature name="com.android.phone.simsettings.change_roaming_service_summary"/>
+	<app_feature name="com.android.phone.oplus_dialer_enable"/>
+	<app_feature name="com.oplus.bootreg_region_in"/>
+	<app_feature name="com.oplus.lockassistant.lockcard_server_url" args="String:https://lockcard-service-in.allawnos.com/post/"/>
+	<app_feature name="com.oplus.lockassistant.fk_upgrade_plan_info" args="String:http://www.flipkart.com/pages/fsup-tnc"/>
+	<app_feature name="com.oplus.lockassistant.lockcard_region" args="String:IN"/>
+	<app_feature name="com.oplus.wirelesssettings.customize_cast_support"/>
+	<app_feature name="com.android.server.telecom.oplus_dialer_enable"/>
+	<app_feature name="com.oplus.floatassistant.air_view_enable"/>
+	<app_feature name="com.oplus.camera.soloop_route_url" args="String:https://videoeditor-in.soloop.heytapmobile.com"/>
+	<app_feature name="com.oplus.camera.sticker_base_url" args="String:https://sticker-service-in.allawnos.com"/>
+	<app_feature name="com.android.mms.smart_message"/>
+	<app_feature name="com.android.mms.phone_number_recognition"/>
+	<app_feature name="com.android.settings.in_version"/>
+	<app_feature name="com.android.settings.auth_base_url" args="String:https://spk-service-sg.allawnos.com/"/>
+	<app_feature name="com.android.settings.electronic_label"/>
+	<app_feature name="com.android.settings.video_beauty.invisible"/>
+	<app_feature name="com.android.contacts.cloud_sync_privacy_statement" args="String:https://static-in01a-ocloud.heytapmobile.com/heytapprivacystatement.html"/>
+	<app_feature name="com.android.contacts.cloud_sync_server_domain" args="String:heytapmobile.com"/>
+	<app_feature name="com.oplus.calculator.rate_address" args="String:https://calculator-api-in.allawnos.com/"/>
+	<app_feature name="com.android.contacts.support_card_recognize"/>
+	<app_feature name="com.oplus.wirelesssettings.vcomm_more" args="String:https://support.oppo.com/en/vcomm-help/"/>
+	<app_feature name="com.redteamobile.roaming.regionmark" args="String:IN"/>
+	<app_feature name="com.oplus.smartanalysis.rule_server_host" args="String:https://iwisdom-apps-in.allawnos.com"/>
+	<app_feature name="com.oplus.assistantscreen.app_recommend_card_enable"/>
+	<app_feature name="com.oplus.note.cloud_url_host" args="String:https://i-in01a-ocloud.heytapmobile.com"/>
+	<app_feature name="com.oplus.note.speech_url_domain" args="String:atot-si-in.allawnos.com"/>
+	<app_feature name="com.oplus.weather.service.weather_host" args="String:https://weather-server-in.allawnos.com"/>
+	<app_feature name="com.android.phone.exp_uaprofile_url" args="String:https://ua-prof-sg.allawnofs.com/resource/ua-PROF/"/>
+	<app_feature name="com.oplus.heysynergy.agreement_url_12.0" args="String:https://connect.oppo.com/hi-IN/agreement"/>
+	<app_feature name="com.oplus.heysynergy.func_brief_url_12.0" args="String:connect.oppo.com"/>
+	<app_feature name="com.oplus.padconnect.QR_url" args="String:https://pc-assistant-in.allawnofs.com/h5/index.html?param="/>
+	<app_feature name="com.android.settings.screen_physics_size_cm"/>
+	<app_feature name="com.oplus.dcs.data.url" args="String:https://dc-stat-in.heytapmobile.com"/>
+	<app_feature name="com.oplus.dcs.tech.url" args="String:https://obus-dctech-in.heytapmobile.com"/>
+	<app_feature name="com.oplus.dcs.eap.url" args="String:https://eap-log-in.allawnos.com"/>
+	<app_feature name="com.oplus.dcs.storage.url" args="String:https://ostorage-ocloud-in.allawnos.com"/>
+	<app_feature name="com.oplus.ota.component_update_url" args="String:https://component-ota-in.allawnos.com"/>
+	<app_feature name="com.oplus.ota.contributors_url" args="String:https://icontributor-service-in.allawnos.com/contributor/home"/>
+	<app_feature name="com.oplus.ota.new_appointment_url" args="String:https://ota-recruit-in.allawnos.com/recruit/url"/>
+	<app_feature name="com.oplus.ota.recruit_promote_url" args="String:https://ota-recruit-in.allawnos.com"/>
+	<app_feature name="com.oplus.ota.pubkey" args="String:MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwYtghkzeStC9YvAwOQmWylbp74Tj8hhi3f9IlK7A/CWrGbLgzz/BeKxNb45zBN8pgaaEOwAJ1qZQV5G4nProWCPOP1ro1PkemFJvw/vzOOT5uN0ADnHDzZkZXCU/knxqUSfLcwQlHXsYhNsAm7uOKjY9YXF4zWzYN0eFPkML3Pj/zg7hl/ov9clB2VeyI1/blMHFfcNA/fvqDTENXcNBIhgJvXiCpLcZqp+aLZPC5AwY/sCb3j5jTWer0Rk0ZjQBZE1AncwYvUx4mA65U59cWpTyl4c47J29MsQ66hqWv6eBHlDNZSEsQpHePUqgsf7lmO5Wd7teB8ugQki2oz1Y5QIDAQAB"/>
+	<app_feature name="com.oplus.ota.pubkey_ver" args="String:1615896309308"/>
+	<app_feature name="com.oplus.ota.show_version_type" args="int:2"/>
+	<app_feature name="com.oplus.ota.questionnaire_support" args="boolean:true"/>
+	<app_feature name="com.oplus.romupdate.url" args="String:https://rus-service-in.allawnos.com/post/"/>
+	<app_feature name="com.oplus.romupdate.pubkey" args="String:MIIBIDANBgkqhkiG9w0BAQEFAAOCAQ0AMIIBCAKCAQEAnElG/FfBxOU7BSf3BuLS/m6S8vIEkf2CK3iSsNeLhN6164/Tbg63FSw/DFq1GFAN4aOvWWNw/67/A4uPLFCQRWDsDv8HoVpKPgvuvurg6idU9X2/P6C820pFig5bKv9kRa1wOyzkRjv+IqYuQuHbMCi6/zmzNpAfWFwa2/p/AbRwOVc6TDsIm27KWKPfHJQsXPvEsfdlYK1JqKOJpE3EkaEMFSa0qdmRBQ7ugA84co0uJIcfpx9AFacjACveg567oFqqCBYysrPAY+SQwQXqs1h+x+CMXMrN4hdqcu8TPQyurXnpZmxesC0k2GVxineh8WdzMFLwUffNcpL+d7NtbQIBAw=="/>
+	<app_feature name="com.oplus.romupdate.pubkey_ver" args="String:1608798635004"/>
+	<app_feature name="com.oplusos.sau.url" args="String:https://sau-server-in.allawnos.com/post/"/>
+	<app_feature name="com.oplus.sau.pubkey" args="String:MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwwfdwLHPkfKXJfc7KE7f4J44g2wb1HbfkhNsv3YZE3st+jgiuwR2YTaGfLBES/yFvNFX5PRyUAxqlVHcWB3WRZK7aUt7Ei7e5psL4J3YQEFA1XfAT6sc/Vt+L7mojLa1f0q+PWF5XTEYCdS97jCR42AGv3dVwmUrlA3cxnFaVyDqXbrWnupThnHrRUtnYOSJKIanDRNrEmdhQmiK4zWYkxnZ4UE0XQtbd7xgyrf2wWwVRwBGU4YGOq0RIXHTjT4xQ8wB55yNi4mEqZ6lPBQHYsWnTj9fPC6/C/wVCeDxcWEum+WIvlhLHjB0cAYZ/6OgqfQ1v8N+7aGRoV33UGcglQIDAQAB"/>
+	<app_feature name="com.oplus.sau.pubkey_ver" args="String:1621324362023"/>
+	<app_feature name="com.oplusos.sau.opex.url" args="String:https://opex-service-in.allawnos.com/"/>
+	<app_feature name="com.oplusos.sau.opex.pubkey" args="String:MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoryRng0SUK/vtxyAx6E/QLcAKXAY3QlA4pZipRYKwH78KQCTM6HCVKxnrudRRu88M8JE2neO/nP1CI6sCR5e2AlM2p4ctZ07cE3nGyP7UoE8r9DiHrK/DXkIv+vQ9nPIbAopAYcL4Ke4ecBIH/MBbBIzzFHv9Hur/U5mXEVqCO1jHvwglG9y1l2pAdzL+lxocyYx28G8bM//KhAdeTJ877LH9UgL91jL68bJLr6N1R3KYHW56uoM7n/Y1ZlcALnoJI7gdlGEoEhAMf/VSxUoBxnDbuqfd8PNhTgyuRqXLYxSPSxbbgojHyJllkqhLcsZhW4D0fnvJMOdi+Ut1NONAwIDAQAB"/>
+	<app_feature name="com.oplusos.sau.opex.pubkey_ver" args="String:1631002407524"/>
+	<app_feature name="com.ted.number.crypto_domain" args="String:tel-num-in.heytapmobile.com"/>
+	<app_feature name="com.oneplus.membership.url_host" args="String:https://memberapi.oneplus.in/"/>
+	<app_feature name="com.oneplus.membership.web_url_host" args="String:https://account.oneplus.in/member/sdk?utm_source=rom&amp;utm_medium="/>
+	<app_feature name="com.oneplus.membership.account.url_host" args="String:https://gateway-oppo.oneplus.in/v2/"/>
+	<app_feature name="com.oplus.daydreamvideo.regionmark" args="String:IN"/>
+	<app_feature name="com.oplus.daydreamvideo.cloud_config" args="String:2"/>
+	<app_feature name="com.oplus.daydreamvideo.exit_sale_mode" args="String:https://storemode-service-in.allawnos.com"/>
+	<app_feature name="com.oplus.daydreamvideo.demo_phone_dau" args="String:https://smdemo-service-in.allawnos.com"/>
+	<app_feature name="com.oplus.daydreamvideo.rus" args="String:https://rus-service-in.allawnos.com"/>
+	<app_feature name="com.oplus.daydreamvideo.demo_phone_reg" args="String:https://smdemo-service-in.allawnos.com"/>
+	<app_feature name="com.oplus.daydreamvideo.sau" args="String:https://sau-server-in.allawnos.com"/>
+	<app_feature name="com.oplus.sos.special_function" args="String:{&quot;usePowerBtnSwitch&quot;: {&quot;isSwitchOn&quot;: true,&quot;isClickable&quot;: false,&quot;isSupportPhoneClone&quot;: false,&quot;pressTimesToLaunchSOS&quot;: 3},&quot;autoCallSwitch&quot;: {&quot;defaultValue&quot;: true,&quot;isSupportPhoneClone&quot;: false},&quot;playToneSwitch&quot;:{&quot;defaultValue&quot;: true},&quot;defaultEmergencyNumber&quot;: {&quot;emergencyNumber&quot;: &quot;112&quot;,&quot;position&quot;: 0},&quot;lowBatterySupport&quot;: true,&quot;maxContactsSize&quot;: 5}"/>
+	<app_feature name="com.oplus.childrenspace.check_app_base_url" args="String:https://minorspace-api-gl.allawnos.com/minor-space/v1/check-pkg"/>
+	<app_feature name="com.os.docvault_support"/>
+	<app_feature name="oplus.systemui.notification_banner_disable"/>
+	<app_feature name="com.oplus.lockassistant.fk_support"/>
+	<app_feature name="com.oplus.systemui.fluid_seeding_settings_for_ex"/>
+	<app_feature name="com.android.relax.region_url_dynamic" args="String:relax-service-in.allawnos.com"/>
+	<app_feature name="com.oplus.smartsidebar.scene_rules_url" args="String:https://sidebar-apps-in.allawnos.com"/>
+	<app_feature name="com.oplus.compass.altitude_address" args="String:https://weather-server-in.allawnos.com"/>
+	<app_feature name="com.oplus.lockassistant.region_assistant_server_url" args="String:https://regionlock-dist-in.allawnos.com/"/>
+	<app_feature name="com.oplus.camera.camera_log_unlock_login_url" args="String:https://login-decrypt-in.allawnos.com/secrecy/login_authorization_oaep"/>
+	<app_feature name="com.oplus.camera.camera_log_unlock_login_url.public.key" args="String:MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsNYxEj4aGKpdp+Zy1MX4mGsR3hrpFScRjTKR5KyNrivHJJZyWPXgcbhIm3C/3bNqM1VF5T3fxyWo/aCRT/mFSB08YrMdS/bYab3Kio5ihmAeau8hc8zokSsPuFE81ZLVIvRzTe+qj6Qso+KvVDW/B5iBQx363MOnvZoEPjFU1JaVXOcx8usrGLs87cb6nbgTf0LFqxEv+NYC3IFZ+3xJ6zakZr1Q8pl53Z2RiJasJ0C8uRPSlWxEWQwLP13OdfbQ4/nrfI9v0nwjjVEajjSt7886Rvda9XjD1vmiFUXY/KVmRI87gp0/D6OJHsPXVY/7e/cn3C+Y2SEjBYLIsL6puwIDAQAB"/>
+	<app_feature name="com.oplus.systemui.fluid_seeding_settings_for_india"/>
+	<app_feature name="com.oplus.omoji.domain" args="String:https://omoji-apps-in.allawnos.com"/>
+	<app_feature name="com.oplus.battery.one_key_power_save" args="boolean:true"/>
+	<app_feature name="com.oplus.battery.disable_app_update_info" args="boolean:true"/>
+	<app_feature name="com.oplus.battery.low_battery_message" args="boolean:true"/>
+	<app_feature name="com.oplus.cosa.pdt_server_url" args="String:icosa-service-in-01.allawnos.com"/>
+	<app_feature name="com.oplus.cosa.rm_server_url" args="String:icosa-service-in-03.allawnos.com"/>
+	<app_feature name="com.oplus.cosa.lmt_server_url" args="String:icosa-service-in-02.allawnos.com"/>
+	<app_feature name="com.oplusos.deepthinker.apptype.cert_version" args="long:1717395981275"/>
+	<app_feature name="com.oplusos.deepthinker.apptype.public_key" args="String:MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAE1mmjrqVukQxMZ7NRv17ELY5BBw8K05LFwWGw1QUE/YaXtV8z/oPT4hjcuF0dMYmDjGWQsj3AAwDjj9Cx7v12QQ=="/>
+	<app_feature name="com.oplus.deepthinker.domain_name_release" args="String:classify-app-in.allawnos.com"/>
+	<app_feature name="com.oplus.systemui.hide_notification_content"/>
+	<app_feature name="com.oplus.cota.cota_biz_name" args="String:cota-crypto-in.allawnos.com"/>
+	<app_feature name="com.oplus.ai.support_smart_voice" args="boolean:true"/>
+	<app_feature name="com.android.settings.app_member_rcc_url" args="String:https://memberapi.oneplus.in/rcc/member/app/copywriting/get"/>
+	<app_feature name="com.oplus.ota.recruit_type_url" args="String:https://ota-recruit-in.coloros.com"/>
+	<app_feature name="com.oplus.aimemory.export_bucket" args="String:ai-resource-in-memory"/>
+	<app_feature name="com.oplus.aiunit.tools.transmit">
+		<StringList args="CHANNEL_CONFIG_TYPE_KEY:1"/>
+		<StringList args="STORAGE_CLOUD_VENDOR_TYPE:3"/>
+		<StringList args="KMS_PUBLIC_KEY:MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAydtsN2/JAr4Affg+VuNi5uYKHpntjs0sOmbdteFgQ/HW1tTidarHncoDlZgYf+IUkldXJvEUzGEjpI0ujak+c5EkJIvbb+TdfwcbRwKs5WP3iotpzQiXOSeDtbXhonEBc+oD06wev8I9XuevhnS8SsWOzKutZOjTJMhXXwu9s0YToQaDte2KxqJT62zZhDw43Zo+V5oXVZBLJb1lyvNUL3BKDF4KwsVgBL9oEw57QCid0X/vv2PDv77uy7n0ynr1PfIE23MaPOMuAmGEUjhm5hl12KvkmxfXwg5AM8ricQsyitt7OgN+suGFqjqa95ri/uB3ZdEC7JzPN58LTKoTewIDAQAB"/>
+		<StringList args="END_POINT:https://s3.ap-south-1.amazonaws.com"/>
+		<StringList args="REGION:ap-south-1"/>
+	</app_feature>
+	<app_feature name="com.customer.feedback.sdk_data_region" args="int:1"/>
+	<app_feature name="com.oplus.aimemory.odin_allawntech_url" args="String:https://personal-inference-in.allawntech.com/"/>
+	<app_feature name="com.oplus.aimemory.kms_key" args="String:f2pOmfVKkKwzC3+zO0MITLOsu3vMe1LGUriFetHJp2UUV7XSepkX4y8MMp9CUE/WBqMSCiJY2TxTjFcjWKn5dojwhaSKpUPPwnNsClyEKKXxScRKdCcUN3SXTDMO2kLyy6Hrs5DKgnA5UMQ3CDFadxodUy8WBaoFsD8rZYnwtyWyIq9Fs5txIheB12Pm4MeKFTfVdGGoN3NB4sSRwAppWC9ShF0C+AcBGjzZ0G0Ygg6L6rqd8jpVkg+YGS7qsZ9ajJIk1r1SRbQOOUhKc1PR2FFDZK4JijrriKHKGUttWlI0FoXTJZZTxRqUHEFGIilslw81WjfuKYfvA31s0guouwqFEazswBCFpTBnvJ2BaSDAkcycox2LFMpcp7eSY2BQu8V4uwLKSW50UMT1ugFxRr80S77rd4M1Q6B8vH4e6gXNs2lzao2QEHiSZWZL3HfbnD9pVRZpNLNrvICLas5DtoLgRkBHCwxDF7pE4oZ1EYZKGQhQebX4NWfZkcBvEYi7V7N+o4/i5TnCCQEtMsoLpZmv2ynha5m+ZBF8ZcPE9jkLkUjWuIZ5aKzvB7Udo6owoWZ0SJgxwW8hFWk0+aq340R2IYYUibP7plaTumemgRevBTuAADV84XzXxBV3dAalc4iTMYlK01PhlMjgw57dw2scpbrZ9lmy/FtzB6Z9+1if5GzFJi1UaIKUOM/grE9Xtbf78DJmKruHRWvEM6ZZqWqSu2zcfLdEWpYdkYO4hQO19qUPVqCOlhR0GpqeRJwoPM1yRXt0mTv9Wmh5Ky9MKw/eQIq707HHJVaZQENggb+i8pplW8tZ+2AQmlS/dAl9UAfEIJsRFrv/IlZ9a3VcMM2rMkUgAquYA5OM3DXX9IrozLwMJKLfVlzCdbZacmPdUEQk6Y5ugQwZ6bS+y0R1aW+s4Sao3CydwH96ASeJ8H9fRyR8IbDT9SS99FoHiKoheo9apqyBpFMClDYmp5Jy8xQq8MbkELJk9gQ1Bz/noVjh6YHIK7noalWB8yPHI7u4lrh8l3Y5J4IOQn7TZ4ltuJqFViFgOihR9mSucTlGO1H68SMph4FoY2GmW6p83H2ygj7SNsFOrCIGI1ZlXIvW51kzhDmoMr4hpKhCPHvscBRBtDor+CSL1qESGz+zqmEPGk5BeHqJ8Xw8iVHBxItDEKatBreYw7Z68knRtUAHlWQ4EZC/wwdowl5BrI8Ae7g8IQZ0IxFS9hOcqmtvURaoWSDp0CEtKmJVBpdiAWlq+YSWSgKL9oKftwa58g6tMjI1xrrG+YjDq4XL9KonBhtI5QigSoqICqPuoVjQ3Jtx8rzEyIBQ2xqbJsIo1Xm/aRWqNAVzl0eXBXyp0JJWLM09OBlJJhRYx7o2pFWCV1c9g1eJacgttMFrLApyaCWS4itBLDnQmVzBhXMs6GIbI1XodhI+FYJ36zDOOn2UhaudEazZ4xOkSpjrGUH+rBlG+INq54hfQCOzCFMUPCPbwHMDgslK1MvsVAtjGFV+qBKGHDJg5Cs62S2Jt3Ur2ZTHAsl2mkNyIozxcUq9o2WeAq8QgVoZYwbQ9oJzjJmq/BiMSE68q7ffU/QbSla7cxUfvUCm2qHELltHvm/D/qxEwCFVug=="/>
+	<app_feature name="com.oplus.pantanal.ums.is_support_group_card" args="boolean:true"/>
+	<app_feature name="com.oplus.safecenter.olock_support" args="int:1"/>
+	<app_feature name="com.oplus.aiunit.plugin.cloud_entity_extraction_oversea">
+		<StringList args="HOST_NAME:https://personal-inference-in.allawntech.com"/>
+		<StringList args="KMS_PUBLIC_KEY:sSsHabZePmDerJ4FjHzBfehPmtaUX6J8ThqLxQ+zYm0jy73wemPas43lBp949ViRQcjJBRvv01WamJiRwTArCgkC9XrD+xlZskDutiN3RBXKiai5pctUuEOgXGVQOl1PsSZYiZoHq7WozHMLKCqP2L2NIMBFkG3pWR4wCnLva1P3R8xbN1oYhjwmaiT0enI9d3ey13NLFABAa1AkGRUioBU8aqA3aUto24eu42V0tFImkUpT0G9EnHJr+FxO4Gxc2VYWuKvYqAhPZsQ9I43dZy2fR55maS/f5qShDI/U6Uur+h/N2C6lo5HGDG2Zx6jqZ7oF3MxMcXHQORh2cKa/5HfYpRHKmZ18EcwwrLDi2RoioZfmw5VWO7wQapdMeU5IS8BLBCMDRFP9IIG7VRX0FDxM5I7DiqgxbMuqWR7J6QiAqz3rGMy7+0LxN69jeYXWakb5wG/Ckl1JCj7n8S12izVXosGHJwN/AHdMYGiTWAJqo4/IOHCpmxELx7atyqkO486B84zNMWPrSsTK66qtcR0UululQ1r/Ki884QJFco5gElfoBVkFaT+kEkBkYJMUyEb2BJu3Rcv/k8eCBqA31cbSR8AryrsIcUV7qXt/tZ7XiI4gwl7mElwH0LiV9GJzKAuS6RztpA1ekVGjtjF3SmrbRhcgssWqsZdptsgKMj+F68pekjhZJYbksEFDqmIC2GMgxoDsS6P6lFFNJTrMs2xZC62wt5VagTl9Wyb3aUfhyz4LcoQaqI2K7JzJgYGKJEfbpwFizAlwuU3Ca3fOqYHVsGdH9n9o1h6whKmJeGhBmcD0EXz7QXjL0K5e02SZmjFwwWh4/Jykm2r3JlZNiGu2eQaN574epj9hTHvkYMOZ3I30xR+GJy4XCUwa4XrCY8ZlihBJpmkmd8JP+owflb+eFC2q1WIBsBNt21ynA3Jw1ssPERMJNM82wJRnzH2aW6KxGnMRsHisx3Mg0hWUcXRZVYSEg2wvwlT0KzFOicVNEMDLspe07EAY+K1RRbPX4H98ozgSwDkDx38WtImGU0BhCnpr25/EtSrtOUXyWk+FA7/cGAfOd0e7e0LR4nTBEjtuZ5HziMY2C3IihDJU3DqJSa29QoZeG2GspmKsKl2+JWmfJ0/8KmGeGm4QwGA85GPaeJaKPEKvRIhZ5VWzKGZKao4oLHa1RLNLRhy1cFj4dbBnFFOnU3hTTFib022fIQYsaxQd1pzuYo8IB5rJjFlRsnTqlmRKMyLetyhsyBRlN7M3SmTz6J2UEEP9MBOUq5hhOCoqUGdh80DicnwPVZ1xc2/eCxi+VHSj5pzxQU0+V63Gugva4auIoqh28yQC4ptx2LT7xCkMjLyGhmAncnRxabLyXBwkyZwQEzp7B1R/EBRiB2wzCj4+iWo1524gBKxmILQimJIRwKI6FDqq+jwc53uUGUAMM8JceRfRFLK+PEMnkpwZYyvXR4+8BMBN+qJcB5RSeBD6ZJ7bo7gf5Eg0VkLxQFkP8w8jdV+3GMANI52tkyJruysRUxNF9ihDObZ1+rhw9Uw1qKb21Dn32SIgZ19guZEyy1TSIQ9DO52X7vNUaL7eBkZJtnIINrGxVwT9IhUJ6ImbYIMjxqeW8Q=="/>
+	</app_feature>
+	<app_feature name="com.android.settings.ai_settings_search_config">
+		<StringList args="https://setup-server-in.allawnos.com"/>
+		<StringList args="fAhjvBeuNf8rg8Lk9J6E"/>
+	</app_feature>
+	<app_feature name="com.oplus.uxdesign.uxicon.host" args="String:https://module-dist-in.allawnos.com"/>
+	<app_feature name="com.oplus.pantanal.ums.nebula_base_url" args="String:https://oversea-nebula-in.heytapmobi.com"/>
+	<app_feature name="com.heytap.ocsp.client.captcha_url" args="String:https://captcha-ind-sec.heytapmobile.com"/>
+	<app_feature name="com.heytap.ocsp.client.host_url" args="String:https://crowd-service-in.allawnos.com/"/>
+	<app_feature name="com.heytap.ocsp.client.h5_url" args="String:https://ocsp-h5-in.heytap.com/#/"/>
+	<app_feature name="com.oplus.note.ai_privacy_policy_url_domain" args="String:https://aitool-oversea-in.heytapmobile.com/aiwriter-protocol/privacy"/>
+	<app_feature name="com.oplus.lockassistant.disable_hlog" args="boolean:true"/>
+	<app_feature name="com.oplus.aiwriter.main_host_address" args="String:aitool-oversea-in.heytapmobile.com"/>
+	<app_feature name="com.oplus.aimemory.asr_url" args="String:wss://bot-asr-in.heytapmobile.com:443/"/>
+	<app_feature name="com.oplus.aimemory.asr_app_id" args="String:appidc627613c21c"/>
+	<app_feature name="com.oplus.aimemory.asr_sec_id" args="String:b5d7573facc94fbbb92a63b372fde15b"/>
+	<app_feature name="com.oplus.aimemory.asr_sec_key" args="String:6df44876f26f9c1477eb215278091ef6"/>
+	<app_feature name="com.oplus.aimemory.asr_package_name" args="String:com.oppo.appidc627613c21c"/>
+	<app_feature name="andes.oplus.documentsreader.ai_privacy_policy_url_domain" args="String:https://aitool-oversea-in.heytapmobile.com"/>
+	<app_feature name="com.oplus.aimemory.asr_default_language" args="String:hi"/>
+	<app_feature name="com.oplus.gleanerservice.flashnotes_asr_config_oversea">
+		<StringList args="ASR_URL:wss://bot-asr-in.heytapmobile.com:443/api/gw/asr/v1/business/"/>
+		<StringList args="APP_ID:appid112a13747a2"/>
+		<StringList args="PACKAGE_NAME:com.oppo.appid112a13747a2"/>
+		<StringList args="SECRET_ID:ae5bcc0f7ac9472ea1caf44344b160a0"/>
+		<StringList args="SECRET_KEY:8f33209cdfd71bd0f7ee0b2b56219c00"/>
+	</app_feature>
+	<app_feature name="com.oplus.aimemory.transmit_acceleration" args="boolean:false"/>
+	<app_feature name="com.oplus.aimemory.transmit_public_key" args="String:MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAydtsN2/JAr4Affg+VuNi5uYKHpntjs0sOmbdteFgQ/HW1tTidarHncoDlZgYf+IUkldXJvEUzGEjpI0ujak+c5EkJIvbb+TdfwcbRwKs5WP3iotpzQiXOSeDtbXhonEBc+oD06wev8I9XuevhnS8SsWOzKutZOjTJMhXXwu9s0YToQaDte2KxqJT62zZhDw43Zo+V5oXVZBLJb1lyvNUL3BKDF4KwsVgBL9oEw57QCid0X/vv2PDv77uy7n0ynr1PfIE23MaPOMuAmGEUjhm5hl12KvkmxfXwg5AM8ricQsyitt7OgN+suGFqjqa95ri/uB3ZdEC7JzPN58LTKoTewIDAQAB"/>
+	<app_feature name="com.oplus.aimemory.transmit_host_name" args="String:https://odin-inference-in.allawntech.com"/>
+	<app_feature name="com.oplus.aipaint.area" args="String:IN"/>
+	<app_feature name="com.oplus.bootreg.default_language" args="String:en_IN"/>
+	<app_feature name="com.oplus.aiassistant.asr_config_oversea">
+		<StringList args="ASR_URL:wss://bot-asr-in.heytapmobile.com:443/api/gw/asr/v1/business/"/>
+		<StringList args="APP_ID:appida6fdde719e9"/>
+		<StringList args="PACKAGE_NAME:com.oppo.appida6fdde719e9"/>
+		<StringList args="SECRET_ID:8de3fe70e2164969b0d5899927931316"/>
+		<StringList args="SECRET_KEY:e03937905ff2b2f1a373f531ba2efc13"/>
+	</app_feature>
+	<app_feature name="com.oplus.rsa.rsa_host_url" args="String:https://icota-service-in.allawnos.com"/>
+	<app_feature name="com.coloros.activation.server_url" args="String:https://esa-reg-in.myoppo.com"/>
+	<app_feature name="com.coloros.activation.pub_key" args="String:MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAENjQkAaYQl9q4SR24562DXI+y/BCszYbJipAIKK+GIYH2SInzT+NecIzR2I1H3IPiHwrdcOFyzs6qeVv6xWOsRA=="/>
+	<app_feature name="com.coloros.activation.pub_key_version" args="String:1634625404737"/>
+	<app_feature name="com.oplus.aimemory.sms_bill_support" args="boolean:true"/>
+	<app_feature name="com.android.settings.runtime_permission_report" args="int:0"/>
+	<app_feature name="com.android.contacts.support_cnip_name"/>
+	<app_feature name="com.oplus.cota.query_pac" args="boolean:true"/>
+	<app_feature name="com.oplus.lockassistant.kms_public_key" args="String:MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEe6zVve30rFS2Vkmppoz/PrZL5tET2dwWhCdQFgvYdIP/sEeoKpYyrzh6Vexf2uDdz58I5SbYxYaMkia9B2WcYg=="/>
+	<app_feature name="com.oplus.phonemanager.ai_voice_detect" args="int:1"/>
+	<app_feature name="com.oplus.wallpapers.image_to_text.host" args="String:https://odin-inference-in.allawntech.com"/>
+	<app_feature name="com.oplus.aimemory.export_taxi_enable_default" args="boolean:true"/>
+	<app_feature name="com.android.settings.new_settings_upload_url" args="String:https://aisearch-setting-in.heytapmobile.com"/>
+	<app_feature name="com.oplus.phonemanager.ai_deepfake_detect" args="boolean:true"/>
+	<app_feature name="com.oplus.gleanerservice.default_strengthen_switch_status" args="int:1"/>
+	<app_feature name="com.oplus.ambient.livealert.live_update_config_flight" args="String:https://www.nextflyapp.com/flight/detail?"/>
+	<app_feature name="com.oplus.ambient.livealert.support_exp_train_card" args="boolean:true"/>
+	<app_feature name="com.oplus.googlepay.support" args="boolean:true"/>
+	<app_feature name="com.oplus.ambient.livealert.flight_server_config">
+		<StringList args="https://flight-cloud-in.allawnos.com;MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEeiyziYU5XIzMdx2Df40c2ynA6f9m
+zSmxlIIxvjVK8vt5rUu/6z1QZfdKcyD8aag1E+AE8w7SHSIFYoEv3rbnHg=="/>
+	</app_feature>
+</extend_features>
+<!-- Timestamp 2026-08-05T15:32:37 #1584501 -->
