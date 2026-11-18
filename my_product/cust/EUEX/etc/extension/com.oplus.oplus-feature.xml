@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oplus-config>
+	<unavailable-oplus-feature name="oplus.software.radio.smart_dds_switch_in_call"/>
+	<unavailable-oplus-feature name="oplus.software.radio.sido_elevator_5g_opt"/>
+	<unavailable-oplus-feature name="oplus.software.radio.pcdr_lte_intra_rat_ping_pong_opt"/>
+	<unavailable-oplus-feature name="oplus.software.radio.pcdr_nr_intra_rat_ping_pong_opt"/>
+	<unavailable-oplus-feature name="oplus.software.radio.sido_lte_nr_pingpong_rsrp_prefer_opt"/>
+	<unavailable-oplus-feature name="oplus.software.radio.game_err"/>
+	<unavailable-oplus-feature name="oplus.software.radio.nwpower_proc_net_control_switch_enable"/>
+	<unavailable-oplus-feature name="oplus.software.radio.wifi_data_control"/>
+	<unavailable-oplus-feature name="oplus.software.radio.power_save_dual_network_control"/>
+</oplus-config>
+<!-- Timestamp 2026-06-11T22:24:09 #1514200 -->

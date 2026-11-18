@@ -1,0 +1,7 @@
+ro.oplus.radio.global_regionlock.cert=1661243252453,SG
+ro.oplus.radio.global_regionlock.log=true
+ro.oplus.radio.global_regionlock.info=ME
+ro.oplus.radio.global_regionlock.enabled=false
+ro.oplus.radio.global_regionlockflag=7
+ro.oplus.ml.auto_ab_enable=1
+persist.sys.oplus.bt.chre_ble_scan=true

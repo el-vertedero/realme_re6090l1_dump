@@ -1,0 +1,51 @@
+<oplus-config>
+
+    <oplus-feature name="oplus.software.bt.switchlog" />
+
+    <oplus-feature name="oplus.software.wlan.dbs" />
+
+    <oplus-feature name="oplus.software.wlan.wifi6" />
+
+    <!-- LiXiong@CONNECTIVITY.WIFI.NETWORK.ROUTERBOOST, 2020/09/27   -->
+    <oplus-feature name="oplus.software.wlan.routerboost" />
+
+    <!-- NormanLiu@CONNECTIVITY.WIFI.NETWORK, 2021/10/14 -->
+    <oplus-feature name="oplus.software.wlan.fdd_mode" />
+
+
+    <!-- Huyadong@CONNECTIVITY.BT.2033622, 2022/03/22, add for bluetooth connect help -->
+    <oplus-feature name="oplus.software.bt.connect.helper" />
+    
+    <!-- Zhouhuiquan@CONNECTIVITY.WIFI.CONNECT.SMARTANTENNA, 2022/12/09, Add for wifi SmartAntenna implement -->
+    <oplus-feature name="oplus.software.wlan.smart_antenna" />
+
+    <!-- GaoShangxiu@CONNECTIVITY.BT.Audio.Feature.1621909, 2021/10/02,add for support Binuural Record -->
+    <oplus-feature name="oplus.software.bt.binaural_record" />
+
+    <!-- SunZhao@CONNECTIVITY.WIFI.NETSHARE, 2022/12/06, add for netshare -->
+    <oplus-feature name="oplus.software.wlan.net_share" />
+
+    <!-- Zhouhuiquan@CONNECTIVITY.WIFI.CONNECT.3574191, 2022/10/20, Add for wifi connection self cure v3 -->
+    <oplus-feature name="oplus.software.wlan.connection_selfcure_v3" />
+
+    <!-- HanJiajia@CONNECTIVITY.WIFI.SOFTAP, 2023/09/06,add for atpc   -->
+    <oplus-feature name="oplus.software.wlan.atpc" />
+
+    <!-- ZhengDeng@CONNECTIVITY.WIFI.BASIC.P2P.3615099, 2022/09/15, add for AP-GC CONNECT -->
+    <oplus-feature name="oplus.software.wlan.ap_gc_connect" />
+
+    <!-- wangcheng@CONNECTIVITY.WIFI.NETWORK, 2024/04/9 -->
+    <oplus-feature name="oplus.software.wlan.sar.txduty" />
+
+    <!-- QiangLq@CONNECTIVITY.WIFI.HARDWARE, 2026/07/29, add for dynamic edcca_v2 -->
+    <oplus-feature name="oplus.software.wlan.dynamic_edcca_v2" />
+
+    <!-- LiFenfen@CONNECTIVITY.WIFI.HARDWARE.SGDETECT.4092444, 2022/10/09, smartgear 3.0 -->
+    <oplus-feature name="oplus.software.wlan.sg_detect" />
+
+    <!-- SunZhao@CONNECTIVITY.WIFI.CONNECTION.7757711, 2024/08/19, add for game assistant network strength scan -->
+    <oplus-feature name="oplus.software.wlan.game_network_strength_scan" />
+
+    <!-- LiFenfen@CONNECTIVITY.WIFI.HARDWARE.POWER.LIMITATION.7651893, 2024/07/25, Add for limit txpower for RF standard -->
+    <oplus-feature name="oplus.software.wlan.power.limitation" />
+</oplus-config>

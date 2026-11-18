@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier_config>
+	<boolean name="config_oplus_4g_pref_default" value="false"/>
+	<boolean name="config_oplus_show_5g_pref" value="true"/>
+</carrier_config>
+<!-- Timestamp 2026-06-11T22:17:49 #1514392 -->

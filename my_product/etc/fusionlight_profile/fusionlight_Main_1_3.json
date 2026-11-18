@@ -1,0 +1,2431 @@
+{
+  "CCTLowLuxLimit": 30,
+  "CCTHighLuxLimit": 700,
+  "CCTMaxLeakRatioThreshold": 10000.0,
+  "CCTLeakRatioThreshold": 10000.0,
+  "CCTPureColorRGBDeltaMax": 2,
+  "CCTPureWhiteRGBMin": 215,
+  "CCTPureBlackRGBMin": 32,
+  "CCTPureBlackRGBMax": 38,
+  "CCTPureColorParameter": [
+    {
+      "PureColorId": 0,
+      "PureColorName": "GREY_SCREEN",
+      "ColorScaleMax": 0,
+      "GreyScaleDeltaThreshold": 0,
+      "ColorScaleRatioMin": 0.0,
+      "ColorScaleRatioMax": 0.0,
+      "LeakRatioMin": 0.0,
+      "LeakRatioMax": 0.0
+    },
+    {
+      "PureColorId": 1,
+      "PureColorName": "RED_SCREEN",
+      "ColorScaleMax": 0,
+      "GreyScaleDeltaThreshold": 0,
+      "ColorScaleRatioMin": 0.0,
+      "ColorScaleRatioMax": 0.0,
+      "LeakRatioMin": 0.0,
+      "LeakRatioMax": 0.0
+    },
+    {
+      "PureColorId": 2,
+      "PureColorName": "GREEN_SCREEN",
+      "ColorScaleMax": 0,
+      "GreyScaleDeltaThreshold": 0,
+      "ColorScaleRatioMin": 0.0,
+      "ColorScaleRatioMax": 0.0,
+      "LeakRatioMin": 0.0,
+      "LeakRatioMax": 0.0
+    },
+    {
+      "PureColorId": 3,
+      "PureColorName": "BLUE_SCREEN",
+      "ColorScaleMax": 0,
+      "GreyScaleDeltaThreshold": 0,
+      "ColorScaleRatioMin": 0.0,
+      "ColorScaleRatioMax": 0.0,
+      "LeakRatioMin": 0.0,
+      "LeakRatioMax": 0.0
+    },
+    {
+      "PureColorId": 4,
+      "PureColorName": "YELLOW_SCREEN",
+      "ColorScaleMax": 0,
+      "GreyScaleDeltaThreshold": 0,
+      "ColorScaleRatioMin": 0.0,
+      "ColorScaleRatioMax": 0.0,
+      "LeakRatioMin": 0.0,
+      "LeakRatioMax": 0.0
+    },
+    {
+      "PureColorId": 5,
+      "PureColorName": "PURPLE_SCREEN",
+      "ColorScaleMax": 0,
+      "GreyScaleDeltaThreshold": 0,
+      "ColorScaleRatioMin": 0.0,
+      "ColorScaleRatioMax": 0.0,
+      "LeakRatioMin": 0.0,
+      "LeakRatioMax": 0.0
+    },
+    {
+      "PureColorId": 6,
+      "PureColorName": "CYAN_SCREEN",
+      "ColorScaleMax": 0,
+      "GreyScaleDeltaThreshold": 0,
+      "ColorScaleRatioMin": 0.0,
+      "ColorScaleRatioMax": 0.0,
+      "LeakRatioMin": 0.0,
+      "LeakRatioMax": 0.0
+    },
+    {
+      "PureColorId": 7,
+      "PureColorName": "WHITE_BLACK_SCREEN",
+      "ColorScaleMax": 0,
+      "GreyScaleDeltaThreshold": 0,
+      "ColorScaleRatioMin": 0.0,
+      "ColorScaleRatioMax": 0.0,
+      "LeakRatioMin": 0.0,
+      "LeakRatioMax": 0.0
+    },
+    {
+      "PureColorId": 8,
+      "PureColorName": "LOW_COLOR_SCALE",
+      "ColorScaleMax": 0,
+      "GreyScaleDeltaThreshold": 0,
+      "ColorScaleRatioMin": 0.0,
+      "ColorScaleRatioMax": 0.0,
+      "LeakRatioMin": 0.0,
+      "LeakRatioMax": 0.0
+    }
+  ],
+  "CCTCoeffLIR": [
+    {
+      "Level": 0,
+      "Component": 0,
+      "ChannelR": "-0.03017825143768720000",
+      "ChannelG": "-0.04428668074427870000",
+      "ChannelB": "-0.02314609964102250000",
+      "ChannelC": "0.04472644879603530000"
+    },
+    {
+      "Level": 0,
+      "Component": 1,
+      "ChannelR": "-0.01489110371984450000",
+      "ChannelG": "-0.01442752298070540000",
+      "ChannelB": "-0.00541456974673349000",
+      "ChannelC": "0.02213310405687510000"
+    },
+    {
+      "Level": 0,
+      "Component": 2,
+      "ChannelR": "-0.04435491542245280000",
+      "ChannelG": "-0.06313729545143120000",
+      "ChannelB": "0.03626574368716670000",
+      "ChannelC": "0.04607351036366980000"
+    },
+    {
+      "Level": 1,
+      "Component": 0,
+      "ChannelR": "-0.03017825143768720000",
+      "ChannelG": "-0.04428668074427870000",
+      "ChannelB": "-0.02314609964102250000",
+      "ChannelC": "0.04472644879603530000"
+    },
+    {
+      "Level": 1,
+      "Component": 1,
+      "ChannelR": "-0.01489110371984450000",
+      "ChannelG": "-0.01442752298070540000",
+      "ChannelB": "-0.00541456974673349000",
+      "ChannelC": "0.02213310405687510000"
+    },
+    {
+      "Level": 1,
+      "Component": 2,
+      "ChannelR": "-0.04435491542245280000",
+      "ChannelG": "-0.06313729545143120000",
+      "ChannelB": "0.03626574368716670000",
+      "ChannelC": "0.04607351036366980000"
+    },
+    {
+      "Level": 2,
+      "Component": 0,
+      "ChannelR": "-0.03017825143768720000",
+      "ChannelG": "-0.04428668074427870000",
+      "ChannelB": "-0.02314609964102250000",
+      "ChannelC": "0.04472644879603530000"
+    },
+    {
+      "Level": 2,
+      "Component": 1,
+      "ChannelR": "-0.01489110371984450000",
+      "ChannelG": "-0.01442752298070540000",
+      "ChannelB": "-0.00541456974673349000",
+      "ChannelC": "0.02213310405687510000"
+    },
+    {
+      "Level": 2,
+      "Component": 2,
+      "ChannelR": "-0.04435491542245280000",
+      "ChannelG": "-0.06313729545143120000",
+      "ChannelB": "0.03626574368716670000",
+      "ChannelC": "0.04607351036366980000"
+    }
+  ],
+  "L_CCTCoeffLIR": [
+    {
+      "Level": 0,
+      "Component": 0,
+      "ChannelR": "-0.03017825143768720000",
+      "ChannelG": "-0.04428668074427870000",
+      "ChannelB": "-0.02314609964102250000",
+      "ChannelC": "0.04472644879603530000"
+    },
+    {
+      "Level": 0,
+      "Component": 1,
+      "ChannelR": "-0.01489110371984450000",
+      "ChannelG": "-0.01442752298070540000",
+      "ChannelB": "-0.00541456974673349000",
+      "ChannelC": "0.02213310405687510000"
+    },
+    {
+      "Level": 0,
+      "Component": 2,
+      "ChannelR": "-0.04435491542245280000",
+      "ChannelG": "-0.06313729545143120000",
+      "ChannelB": "0.03626574368716670000",
+      "ChannelC": "0.04607351036366980000"
+    },
+    {
+      "Level": 1,
+      "Component": 0,
+      "ChannelR": "-0.03017825143768720000",
+      "ChannelG": "-0.04428668074427870000",
+      "ChannelB": "-0.02314609964102250000",
+      "ChannelC": "0.04472644879603530000"
+    },
+    {
+      "Level": 1,
+      "Component": 1,
+      "ChannelR": "-0.01489110371984450000",
+      "ChannelG": "-0.01442752298070540000",
+      "ChannelB": "-0.00541456974673349000",
+      "ChannelC": "0.02213310405687510000"
+    },
+    {
+      "Level": 1,
+      "Component": 2,
+      "ChannelR": "-0.04435491542245280000",
+      "ChannelG": "-0.06313729545143120000",
+      "ChannelB": "0.03626574368716670000",
+      "ChannelC": "0.04607351036366980000"
+    },
+    {
+      "Level": 2,
+      "Component": 0,
+      "ChannelR": "-0.03017825143768720000",
+      "ChannelG": "-0.04428668074427870000",
+      "ChannelB": "-0.02314609964102250000",
+      "ChannelC": "0.04472644879603530000"
+    },
+    {
+      "Level": 2,
+      "Component": 1,
+      "ChannelR": "-0.01489110371984450000",
+      "ChannelG": "-0.01442752298070540000",
+      "ChannelB": "-0.00541456974673349000",
+      "ChannelC": "0.02213310405687510000"
+    },
+    {
+      "Level": 2,
+      "Component": 2,
+      "ChannelR": "-0.04435491542245280000",
+      "ChannelG": "-0.06313729545143120000",
+      "ChannelB": "0.03626574368716670000",
+      "ChannelC": "0.04607351036366980000"
+    }
+  ],
+  "M_CCTCoeffLIR": [
+    {
+      "Level": 0,
+      "Component": 0,
+      "ChannelR": "-0.03017825143768720000",
+      "ChannelG": "-0.04428668074427870000",
+      "ChannelB": "-0.02314609964102250000",
+      "ChannelC": "0.04472644879603530000"
+    },
+    {
+      "Level": 0,
+      "Component": 1,
+      "ChannelR": "-0.01489110371984450000",
+      "ChannelG": "-0.01442752298070540000",
+      "ChannelB": "-0.00541456974673349000",
+      "ChannelC": "0.02213310405687510000"
+    },
+    {
+      "Level": 0,
+      "Component": 2,
+      "ChannelR": "-0.04435491542245280000",
+      "ChannelG": "-0.06313729545143120000",
+      "ChannelB": "0.03626574368716670000",
+      "ChannelC": "0.04607351036366980000"
+    },
+    {
+      "Level": 1,
+      "Component": 0,
+      "ChannelR": "-0.03017825143768720000",
+      "ChannelG": "-0.04428668074427870000",
+      "ChannelB": "-0.02314609964102250000",
+      "ChannelC": "0.04472644879603530000"
+    },
+    {
+      "Level": 1,
+      "Component": 1,
+      "ChannelR": "-0.01489110371984450000",
+      "ChannelG": "-0.01442752298070540000",
+      "ChannelB": "-0.00541456974673349000",
+      "ChannelC": "0.02213310405687510000"
+    },
+    {
+      "Level": 1,
+      "Component": 2,
+      "ChannelR": "-0.04435491542245280000",
+      "ChannelG": "-0.06313729545143120000",
+      "ChannelB": "0.03626574368716670000",
+      "ChannelC": "0.04607351036366980000"
+    },
+    {
+      "Level": 2,
+      "Component": 0,
+      "ChannelR": "-0.03017825143768720000",
+      "ChannelG": "-0.04428668074427870000",
+      "ChannelB": "-0.02314609964102250000",
+      "ChannelC": "0.04472644879603530000"
+    },
+    {
+      "Level": 2,
+      "Component": 1,
+      "ChannelR": "-0.01489110371984450000",
+      "ChannelG": "-0.01442752298070540000",
+      "ChannelB": "-0.00541456974673349000",
+      "ChannelC": "0.02213310405687510000"
+    },
+    {
+      "Level": 2,
+      "Component": 2,
+      "ChannelR": "-0.04435491542245280000",
+      "ChannelG": "-0.06313729545143120000",
+      "ChannelB": "0.03626574368716670000",
+      "ChannelC": "0.04607351036366980000"
+    }
+  ],
+  "CCTCoeffHIR": [
+    {
+      "Level": 0,
+      "Component": 0,
+      "ChannelR": "-0.00465400099369726000",
+      "ChannelG": "0.02109574338618100000",
+      "ChannelB": "-0.01684868978242190000",
+      "ChannelC": "0.00492859894754812000"
+    },
+    {
+      "Level": 0,
+      "Component": 1,
+      "ChannelR": "-0.00793641614428111000",
+      "ChannelG": "0.02089241290366030000",
+      "ChannelB": "-0.01657202822469240000",
+      "ChannelC": "0.00704634231846868000"
+    },
+    {
+      "Level": 0,
+      "Component": 2,
+      "ChannelR": "-0.01947214236780640000",
+      "ChannelG": "0.02455911894217310000",
+      "ChannelB": "-0.00011112530603998300",
+      "ChannelC": "0.00821275352345264000"
+    },
+    {
+      "Level": 1,
+      "Component": 0,
+      "ChannelR": "-0.00465400099369726000",
+      "ChannelG": "0.02109574338618100000",
+      "ChannelB": "-0.01684868978242190000",
+      "ChannelC": "0.00492859894754812000"
+    },
+    {
+      "Level": 1,
+      "Component": 1,
+      "ChannelR": "-0.00793641614428111000",
+      "ChannelG": "0.02089241290366030000",
+      "ChannelB": "-0.01657202822469240000",
+      "ChannelC": "0.00704634231846868000"
+    },
+    {
+      "Level": 1,
+      "Component": 2,
+      "ChannelR": "-0.01947214236780640000",
+      "ChannelG": "0.02455911894217310000",
+      "ChannelB": "-0.00011112530603998300",
+      "ChannelC": "0.00821275352345264000"
+    },
+    {
+      "Level": 2,
+      "Component": 0,
+      "ChannelR": "-0.00465400099369726000",
+      "ChannelG": "0.02109574338618100000",
+      "ChannelB": "-0.01684868978242190000",
+      "ChannelC": "0.00492859894754812000"
+    },
+    {
+      "Level": 2,
+      "Component": 1,
+      "ChannelR": "-0.00793641614428111000",
+      "ChannelG": "0.02089241290366030000",
+      "ChannelB": "-0.01657202822469240000",
+      "ChannelC": "0.00704634231846868000"
+    },
+    {
+      "Level": 2,
+      "Component": 2,
+      "ChannelR": "-0.01947214236780640000",
+      "ChannelG": "0.02455911894217310000",
+      "ChannelB": "-0.00011112530603998300",
+      "ChannelC": "0.00821275352345264000"
+    }
+  ],
+  "L_CCTCoeffHIR": [
+    {
+      "Level": 0,
+      "Component": 0,
+      "ChannelR": "-0.00465400099369726000",
+      "ChannelG": "0.02109574338618100000",
+      "ChannelB": "-0.01684868978242190000",
+      "ChannelC": "0.00492859894754812000"
+    },
+    {
+      "Level": 0,
+      "Component": 1,
+      "ChannelR": "-0.00793641614428111000",
+      "ChannelG": "0.02089241290366030000",
+      "ChannelB": "-0.01657202822469240000",
+      "ChannelC": "0.00704634231846868000"
+    },
+    {
+      "Level": 0,
+      "Component": 2,
+      "ChannelR": "-0.01947214236780640000",
+      "ChannelG": "0.02455911894217310000",
+      "ChannelB": "-0.00011112530603998300",
+      "ChannelC": "0.00821275352345264000"
+    },
+    {
+      "Level": 1,
+      "Component": 0,
+      "ChannelR": "-0.00465400099369726000",
+      "ChannelG": "0.02109574338618100000",
+      "ChannelB": "-0.01684868978242190000",
+      "ChannelC": "0.00492859894754812000"
+    },
+    {
+      "Level": 1,
+      "Component": 1,
+      "ChannelR": "-0.00793641614428111000",
+      "ChannelG": "0.02089241290366030000",
+      "ChannelB": "-0.01657202822469240000",
+      "ChannelC": "0.00704634231846868000"
+    },
+    {
+      "Level": 1,
+      "Component": 2,
+      "ChannelR": "-0.01947214236780640000",
+      "ChannelG": "0.02455911894217310000",
+      "ChannelB": "-0.00011112530603998300",
+      "ChannelC": "0.00821275352345264000"
+    },
+    {
+      "Level": 2,
+      "Component": 0,
+      "ChannelR": "-0.00465400099369726000",
+      "ChannelG": "0.02109574338618100000",
+      "ChannelB": "-0.01684868978242190000",
+      "ChannelC": "0.00492859894754812000"
+    },
+    {
+      "Level": 2,
+      "Component": 1,
+      "ChannelR": "-0.00793641614428111000",
+      "ChannelG": "0.02089241290366030000",
+      "ChannelB": "-0.01657202822469240000",
+      "ChannelC": "0.00704634231846868000"
+    },
+    {
+      "Level": 2,
+      "Component": 2,
+      "ChannelR": "-0.01947214236780640000",
+      "ChannelG": "0.02455911894217310000",
+      "ChannelB": "-0.00011112530603998300",
+      "ChannelC": "0.00821275352345264000"
+    }
+  ],
+  "M_CCTCoeffHIR": [
+    {
+      "Level": 0,
+      "Component": 0,
+      "ChannelR": "-0.00465400099369726000",
+      "ChannelG": "0.02109574338618100000",
+      "ChannelB": "-0.01684868978242190000",
+      "ChannelC": "0.00492859894754812000"
+    },
+    {
+      "Level": 0,
+      "Component": 1,
+      "ChannelR": "-0.00793641614428111000",
+      "ChannelG": "0.02089241290366030000",
+      "ChannelB": "-0.01657202822469240000",
+      "ChannelC": "0.00704634231846868000"
+    },
+    {
+      "Level": 0,
+      "Component": 2,
+      "ChannelR": "-0.01947214236780640000",
+      "ChannelG": "0.02455911894217310000",
+      "ChannelB": "-0.00011112530603998300",
+      "ChannelC": "0.00821275352345264000"
+    },
+    {
+      "Level": 1,
+      "Component": 0,
+      "ChannelR": "-0.00465400099369726000",
+      "ChannelG": "0.02109574338618100000",
+      "ChannelB": "-0.01684868978242190000",
+      "ChannelC": "0.00492859894754812000"
+    },
+    {
+      "Level": 1,
+      "Component": 1,
+      "ChannelR": "-0.00793641614428111000",
+      "ChannelG": "0.02089241290366030000",
+      "ChannelB": "-0.01657202822469240000",
+      "ChannelC": "0.00704634231846868000"
+    },
+    {
+      "Level": 1,
+      "Component": 2,
+      "ChannelR": "-0.01947214236780640000",
+      "ChannelG": "0.02455911894217310000",
+      "ChannelB": "-0.00011112530603998300",
+      "ChannelC": "0.00821275352345264000"
+    },
+    {
+      "Level": 2,
+      "Component": 0,
+      "ChannelR": "-0.00465400099369726000",
+      "ChannelG": "0.02109574338618100000",
+      "ChannelB": "-0.01684868978242190000",
+      "ChannelC": "0.00492859894754812000"
+    },
+    {
+      "Level": 2,
+      "Component": 1,
+      "ChannelR": "-0.00793641614428111000",
+      "ChannelG": "0.02089241290366030000",
+      "ChannelB": "-0.01657202822469240000",
+      "ChannelC": "0.00704634231846868000"
+    },
+    {
+      "Level": 2,
+      "Component": 2,
+      "ChannelR": "-0.01947214236780640000",
+      "ChannelG": "0.02455911894217310000",
+      "ChannelB": "-0.00011112530603998300",
+      "ChannelC": "0.00821275352345264000"
+    }
+  ],
+  "CCTSegmentType": 2,
+  "CCTSegmentRange": [
+    {
+      "Level": 0,
+      "LuxMin": 30,
+      "LuxMax": 60,
+      "CCTMaxLeakRatioThreshold": 0.3,
+      "CCTLeakRatioThreshold": 0.3
+    },
+    {
+      "Level": 1,
+      "LuxMin": 60,
+      "LuxMax": 200,
+      "CCTMaxLeakRatioThreshold": 0.2,
+      "CCTLeakRatioThreshold": 0.2
+    },
+    {
+      "Level": 2,
+      "LuxMin": 200,
+      "LuxMax": 700,
+      "CCTMaxLeakRatioThreshold": 0.2,
+      "CCTLeakRatioThreshold": 0.2
+    }
+  ],
+  "CCTSegmentPureColorParameter": [
+    {
+      "Level": 0,
+      "CCTPureColorParameter": [
+        {
+          "PureColorId": 0,
+          "PureColorName": "GREY_SCREEN",
+          "ColorScaleMax": 0,
+          "GreyScaleDeltaThreshold": 60,
+          "ColorScaleRatioMin": 0.0,
+          "ColorScaleRatioMax": 0.0,
+          "LeakRatioMin": 0.3,
+          "LeakRatioMax": 1.5
+        },
+        {
+          "PureColorId": 1,
+          "PureColorName": "RED_SCREEN",
+          "ColorScaleMax": 0,
+          "GreyScaleDeltaThreshold": 0,
+          "ColorScaleRatioMin": 0.0,
+          "ColorScaleRatioMax": 0.0,
+          "LeakRatioMin": 0.0,
+          "LeakRatioMax": 0.0
+        },
+        {
+          "PureColorId": 2,
+          "PureColorName": "GREEN_SCREEN",
+          "ColorScaleMax": 0,
+          "GreyScaleDeltaThreshold": 0,
+          "ColorScaleRatioMin": 0.0,
+          "ColorScaleRatioMax": 0.0,
+          "LeakRatioMin": 0.0,
+          "LeakRatioMax": 0.0
+        },
+        {
+          "PureColorId": 3,
+          "PureColorName": "BLUE_SCREEN",
+          "ColorScaleMax": 0,
+          "GreyScaleDeltaThreshold": 0,
+          "ColorScaleRatioMin": 0.0,
+          "ColorScaleRatioMax": 0.0,
+          "LeakRatioMin": 0.0,
+          "LeakRatioMax": 0.0
+        },
+        {
+          "PureColorId": 4,
+          "PureColorName": "YELLOW_SCREEN",
+          "ColorScaleMax": 0,
+          "GreyScaleDeltaThreshold": 0,
+          "ColorScaleRatioMin": 0.0,
+          "ColorScaleRatioMax": 0.0,
+          "LeakRatioMin": 0.0,
+          "LeakRatioMax": 0.0
+        },
+        {
+          "PureColorId": 5,
+          "PureColorName": "PURPLE_SCREEN",
+          "ColorScaleMax": 0,
+          "GreyScaleDeltaThreshold": 0,
+          "ColorScaleRatioMin": 0.0,
+          "ColorScaleRatioMax": 0.0,
+          "LeakRatioMin": 0.0,
+          "LeakRatioMax": 0.0
+        },
+        {
+          "PureColorId": 6,
+          "PureColorName": "CYAN_SCREEN",
+          "ColorScaleMax": 0,
+          "GreyScaleDeltaThreshold": 0,
+          "ColorScaleRatioMin": 0.0,
+          "ColorScaleRatioMax": 0.0,
+          "LeakRatioMin": 0.0,
+          "LeakRatioMax": 0.0
+        },
+        {
+          "PureColorId": 7,
+          "PureColorName": "WHITE_BLACK_SCREEN",
+          "ColorScaleMax": 0,
+          "GreyScaleDeltaThreshold": 60,
+          "ColorScaleRatioMin": 0.0,
+          "ColorScaleRatioMax": 0.0,
+          "LeakRatioMin": 0.3,
+          "LeakRatioMax": 1.5
+        },
+        {
+          "PureColorId": 8,
+          "PureColorName": "LOW_COLOR_SCALE",
+          "ColorScaleMax": 120,
+          "GreyScaleDeltaThreshold": 120,
+          "ColorScaleRatioMin": 120.0,
+          "ColorScaleRatioMax": 0.0,
+          "LeakRatioMin": 0.3,
+          "LeakRatioMax": 3.0
+        }
+      ]
+    },
+    {
+      "Level": 1,
+      "CCTPureColorParameter": [
+        {
+          "PureColorId": 0,
+          "PureColorName": "GREY_SCREEN",
+          "ColorScaleMax": 0,
+          "GreyScaleDeltaThreshold": 60,
+          "ColorScaleRatioMin": 0.0,
+          "ColorScaleRatioMax": 0.0,
+          "LeakRatioMin": 0.2,
+          "LeakRatioMax": 5.0
+        },
+        {
+          "PureColorId": 1,
+          "PureColorName": "RED_SCREEN",
+          "ColorScaleMax": 0,
+          "GreyScaleDeltaThreshold": 0,
+          "ColorScaleRatioMin": 0.0,
+          "ColorScaleRatioMax": 0.0,
+          "LeakRatioMin": 0.0,
+          "LeakRatioMax": 0.0
+        },
+        {
+          "PureColorId": 2,
+          "PureColorName": "GREEN_SCREEN",
+          "ColorScaleMax": 0,
+          "GreyScaleDeltaThreshold": 0,
+          "ColorScaleRatioMin": 0.0,
+          "ColorScaleRatioMax": 0.0,
+          "LeakRatioMin": 0.0,
+          "LeakRatioMax": 0.0
+        },
+        {
+          "PureColorId": 3,
+          "PureColorName": "BLUE_SCREEN",
+          "ColorScaleMax": 0,
+          "GreyScaleDeltaThreshold": 0,
+          "ColorScaleRatioMin": 0.0,
+          "ColorScaleRatioMax": 0.0,
+          "LeakRatioMin": 0.0,
+          "LeakRatioMax": 0.0
+        },
+        {
+          "PureColorId": 4,
+          "PureColorName": "YELLOW_SCREEN",
+          "ColorScaleMax": 0,
+          "GreyScaleDeltaThreshold": 0,
+          "ColorScaleRatioMin": 0.0,
+          "ColorScaleRatioMax": 0.0,
+          "LeakRatioMin": 0.0,
+          "LeakRatioMax": 0.0
+        },
+        {
+          "PureColorId": 5,
+          "PureColorName": "PURPLE_SCREEN",
+          "ColorScaleMax": 0,
+          "GreyScaleDeltaThreshold": 0,
+          "ColorScaleRatioMin": 0.0,
+          "ColorScaleRatioMax": 0.0,
+          "LeakRatioMin": 0.0,
+          "LeakRatioMax": 0.0
+        },
+        {
+          "PureColorId": 6,
+          "PureColorName": "CYAN_SCREEN",
+          "ColorScaleMax": 0,
+          "GreyScaleDeltaThreshold": 0,
+          "ColorScaleRatioMin": 0.0,
+          "ColorScaleRatioMax": 0.0,
+          "LeakRatioMin": 0.0,
+          "LeakRatioMax": 0.0
+        },
+        {
+          "PureColorId": 7,
+          "PureColorName": "WHITE_BLACK_SCREEN",
+          "ColorScaleMax": 0,
+          "GreyScaleDeltaThreshold": 60,
+          "ColorScaleRatioMin": 0.0,
+          "ColorScaleRatioMax": 0.0,
+          "LeakRatioMin": 0.2,
+          "LeakRatioMax": 5.0
+        },
+        {
+          "PureColorId": 8,
+          "PureColorName": "LOW_COLOR_SCALE",
+          "ColorScaleMax": 100,
+          "GreyScaleDeltaThreshold": 255,
+          "ColorScaleRatioMin": 255.0,
+          "ColorScaleRatioMax": 0.0,
+          "LeakRatioMin": 0.2,
+          "LeakRatioMax": 5.0
+        }
+      ]
+    },
+    {
+      "Level": 2,
+      "CCTPureColorParameter": [
+        {
+          "PureColorId": 0,
+          "PureColorName": "GREY_SCREEN",
+          "ColorScaleMax": 0,
+          "GreyScaleDeltaThreshold": 60,
+          "ColorScaleRatioMin": 0.0,
+          "ColorScaleRatioMax": 0.0,
+          "LeakRatioMin": 0.2,
+          "LeakRatioMax": 5.0
+        },
+        {
+          "PureColorId": 1,
+          "PureColorName": "RED_SCREEN",
+          "ColorScaleMax": 0,
+          "GreyScaleDeltaThreshold": 0,
+          "ColorScaleRatioMin": 0.0,
+          "ColorScaleRatioMax": 0.0,
+          "LeakRatioMin": 0.0,
+          "LeakRatioMax": 0.0
+        },
+        {
+          "PureColorId": 2,
+          "PureColorName": "GREEN_SCREEN",
+          "ColorScaleMax": 0,
+          "GreyScaleDeltaThreshold": 0,
+          "ColorScaleRatioMin": 0.0,
+          "ColorScaleRatioMax": 0.0,
+          "LeakRatioMin": 0.0,
+          "LeakRatioMax": 0.0
+        },
+        {
+          "PureColorId": 3,
+          "PureColorName": "BLUE_SCREEN",
+          "ColorScaleMax": 0,
+          "GreyScaleDeltaThreshold": 0,
+          "ColorScaleRatioMin": 0.0,
+          "ColorScaleRatioMax": 0.0,
+          "LeakRatioMin": 0.0,
+          "LeakRatioMax": 0.0
+        },
+        {
+          "PureColorId": 4,
+          "PureColorName": "YELLOW_SCREEN",
+          "ColorScaleMax": 0,
+          "GreyScaleDeltaThreshold": 0,
+          "ColorScaleRatioMin": 0.0,
+          "ColorScaleRatioMax": 0.0,
+          "LeakRatioMin": 0.0,
+          "LeakRatioMax": 0.0
+        },
+        {
+          "PureColorId": 5,
+          "PureColorName": "PURPLE_SCREEN",
+          "ColorScaleMax": 0,
+          "GreyScaleDeltaThreshold": 0,
+          "ColorScaleRatioMin": 0.0,
+          "ColorScaleRatioMax": 0.0,
+          "LeakRatioMin": 0.0,
+          "LeakRatioMax": 0.0
+        },
+        {
+          "PureColorId": 6,
+          "PureColorName": "CYAN_SCREEN",
+          "ColorScaleMax": 0,
+          "GreyScaleDeltaThreshold": 0,
+          "ColorScaleRatioMin": 0.0,
+          "ColorScaleRatioMax": 0.0,
+          "LeakRatioMin": 0.0,
+          "LeakRatioMax": 0.0
+        },
+        {
+          "PureColorId": 7,
+          "PureColorName": "WHITE_BLACK_SCREEN",
+          "ColorScaleMax": 0,
+          "GreyScaleDeltaThreshold": 60,
+          "ColorScaleRatioMin": 0.0,
+          "ColorScaleRatioMax": 0.0,
+          "LeakRatioMin": 0.2,
+          "LeakRatioMax": 5.0
+        },
+        {
+          "PureColorId": 8,
+          "PureColorName": "LOW_COLOR_SCALE",
+          "ColorScaleMax": 100,
+          "GreyScaleDeltaThreshold": 255,
+          "ColorScaleRatioMin": 255.0,
+          "ColorScaleRatioMax": 0.0,
+          "LeakRatioMin": 0.2,
+          "LeakRatioMax": 5.0
+        }
+      ]
+    }
+  ],
+  "L_Golden": [
+    {
+      "Channel": 0,
+      "RGolden": "4887",
+      "GGolden": "2587",
+      "BGolden": "108",
+      "WGolden": "7236"
+    },
+    {
+      "Channel": 1,
+      "RGolden": "425",
+      "GGolden": "5543",
+      "BGolden": "330",
+      "WGolden": "6073"
+    },
+    {
+      "Channel": 2,
+      "RGolden": "368",
+      "GGolden": "1702",
+      "BGolden": "966",
+      "WGolden": "2894"
+    },
+    {
+      "Channel": 3,
+      "RGolden": "5316",
+      "GGolden": "9088",
+      "BGolden": "1326",
+      "WGolden": "15018"
+    }
+  ],
+  "M_Golden": [
+    {
+      "Channel": 0,
+      "RGolden": "16473",
+      "GGolden": "7744",
+      "BGolden": "479",
+      "WGolden": "23506"
+    },
+    {
+      "Channel": 1,
+      "RGolden": "1481",
+      "GGolden": "17312",
+      "BGolden": "1366",
+      "WGolden": "19229"
+    },
+    {
+      "Channel": 2,
+      "RGolden": "1257",
+      "GGolden": "5483",
+      "BGolden": "3894",
+      "WGolden": "10150"
+    },
+    {
+      "Channel": 3,
+      "RGolden": "17896",
+      "GGolden": "28051",
+      "BGolden": "5329",
+      "WGolden": "48930"
+    }
+  ],
+  "L_GreyScale": [
+    {
+      "Channel": 0,
+      "RGreyscale": "0.64198701276955500000",
+      "GGreyscale": "0.34493926275128400000",
+      "BGreyscale": "0.01307372447916070000"
+    },
+    {
+      "Channel": 1,
+      "RGreyscale": "0.07375644030661470000",
+      "GGreyscale": "0.87630558753497100000",
+      "BGreyscale": "0.04993797215841460000"
+    },
+    {
+      "Channel": 2,
+      "RGreyscale": "0.12692436800729200000",
+      "GGreyscale": "0.56545259578659800000",
+      "BGreyscale": "0.30762303620611100000"
+    },
+    {
+      "Channel": 3,
+      "RGreyscale": "0.34107798935814400000",
+      "GGreyscale": "0.57852199066794100000",
+      "BGreyscale": "0.08040001997391490000"
+    }
+  ],
+  "M_GreyScale": [
+    {
+      "Channel": 0,
+      "RGreyscale": "0.66258015834186600000",
+      "GGreyscale": "0.31866009408559200000",
+      "BGreyscale": "0.01875974757254190000"
+    },
+    {
+      "Channel": 1,
+      "RGreyscale": "0.07462244446278010000",
+      "GGreyscale": "0.85893435935617700000",
+      "BGreyscale": "0.06644319618104280000"
+    },
+    {
+      "Channel": 2,
+      "RGreyscale": "0.11970379807964100000",
+      "GGreyscale": "0.51684668498509900000",
+      "BGreyscale": "0.36344951693526000000"
+    },
+    {
+      "Channel": 3,
+      "RGreyscale": "0.34824350671829100000",
+      "GGreyscale": "0.54935470525575600000",
+      "BGreyscale": "0.10240178802595400000"
+    }
+  ],
+  "L_RParameters": [
+    {
+      "Color": 0,
+      "Parameter3": "-0.00008669764662560060",
+      "Parameter2": "0.09040709765621160000",
+      "Parameter1": "1.68477694538066000000",
+      "Parameter0": "0.00000000000000000000"
+    },
+    {
+      "Color": 1,
+      "Parameter3": "-0.00003624569806960280",
+      "Parameter2": "0.03865896370792130000",
+      "Parameter1": "2.64696164498653000000",
+      "Parameter0": "0.00000000000000000000"
+    },
+    {
+      "Color": 2,
+      "Parameter3": "0.00000285761803734950",
+      "Parameter2": "0.00145814384102973000",
+      "Parameter1": "-0.12454739304489800000",
+      "Parameter0": "0.00000000000000000000"
+    },
+    {
+      "Color": 3,
+      "Parameter3": "-0.00000298076842784768",
+      "Parameter2": "0.02011865957924890000",
+      "Parameter1": "-3.15173542120542000000",
+      "Parameter0": "0.00000000000000000000"
+    }
+  ],
+  "M_RParameters": [
+    {
+      "Color": 0,
+      "Parameter3": "0.00023151640419713500",
+      "Parameter2": "0.14617177212041800000",
+      "Parameter1": "13.11324768598090000000",
+      "Parameter0": "0.00000000000000000000"
+    },
+    {
+      "Color": 1,
+      "Parameter3": "0.00004992202343954420",
+      "Parameter2": "0.07044368340456030000",
+      "Parameter1": "9.56887364417652000000",
+      "Parameter0": "0.00000000000000000000"
+    },
+    {
+      "Color": 2,
+      "Parameter3": "0.00000308031749113768",
+      "Parameter2": "0.00778997054358945000",
+      "Parameter1": "-0.28698894141370100000",
+      "Parameter0": "0.00000000000000000000"
+    },
+    {
+      "Color": 3,
+      "Parameter3": "-0.00007994835980060650",
+      "Parameter2": "0.06228960254619980000",
+      "Parameter1": "-5.59512740812055000000",
+      "Parameter0": "0.00000000000000000000"
+    }
+  ],
+  "L_GParameters": [
+    {
+      "Color": 0,
+      "Parameter3": "-0.00001537625683395300",
+      "Parameter2": "0.01109287351939170000",
+      "Parameter1": "-0.03737599903901240000",
+      "Parameter0": "0.00000000000000000000"
+    },
+    {
+      "Color": 1,
+      "Parameter3": "-0.00006134379269740840",
+      "Parameter2": "0.08283154918576560000",
+      "Parameter1": "4.38469325192459000000",
+      "Parameter0": "0.00000000000000000000"
+    },
+    {
+      "Color": 2,
+      "Parameter3": "0.00000059095493523145",
+      "Parameter2": "0.00595675694232932000",
+      "Parameter1": "-0.25827798680918500000",
+      "Parameter0": "0.00000000000000000000"
+    },
+    {
+      "Color": 3,
+      "Parameter3": "0.00000015969834317766",
+      "Parameter2": "0.01560983597104400000",
+      "Parameter1": "-2.99246811015870000000",
+      "Parameter0": "0.00000000000000000000"
+    }
+  ],
+  "M_GParameters": [
+    {
+      "Color": 0,
+      "Parameter3": "0.00001460045035425520",
+      "Parameter2": "0.01608609860198620000",
+      "Parameter1": "0.93631893601058500000",
+      "Parameter0": "0.00000000000000000000"
+    },
+    {
+      "Color": 1,
+      "Parameter3": "0.00011360545708035800",
+      "Parameter2": "0.17310351942097600000",
+      "Parameter1": "16.49379939126160000000",
+      "Parameter0": "0.00000000000000000000"
+    },
+    {
+      "Color": 2,
+      "Parameter3": "0.00001346503878896230",
+      "Parameter2": "0.01913841173265400000",
+      "Parameter1": "-0.30581177906628300000",
+      "Parameter0": "0.00000000000000000000"
+    },
+    {
+      "Color": 3,
+      "Parameter3": "-0.00005842257470827350",
+      "Parameter2": "0.04803102058509930000",
+      "Parameter1": "-5.25792727374876000000",
+      "Parameter0": "0.00000000000000000000"
+    }
+  ],
+  "L_BParameters": [
+    {
+      "Color": 0,
+      "Parameter3": "-0.00001147860333536450",
+      "Parameter2": "0.00915945049295791000",
+      "Parameter1": "-0.10971416865381800000",
+      "Parameter0": "0.00000000000000000000"
+    },
+    {
+      "Color": 1,
+      "Parameter3": "-0.00002024694235436520",
+      "Parameter2": "0.02727799241677920000",
+      "Parameter1": "0.98490714431154000000",
+      "Parameter0": "0.00000000000000000000"
+    },
+    {
+      "Color": 2,
+      "Parameter3": "0.00000694550488161402",
+      "Parameter2": "0.01420387911847430000",
+      "Parameter1": "-0.28487890256552300000",
+      "Parameter0": "0.00000000000000000000"
+    },
+    {
+      "Color": 3,
+      "Parameter3": "-0.00000516825588129254",
+      "Parameter2": "0.00969389180041649000",
+      "Parameter1": "-1.50358812669018000000",
+      "Parameter0": "0.00000000000000000000"
+    }
+  ],
+  "M_BParameters": [
+    {
+      "Color": 0,
+      "Parameter3": "0.00001167365003348730",
+      "Parameter2": "0.01383162845726150000",
+      "Parameter1": "0.75375498011894400000",
+      "Parameter0": "0.00000000000000000000"
+    },
+    {
+      "Color": 1,
+      "Parameter3": "0.00003802864026614370",
+      "Parameter2": "0.05714761185561450000",
+      "Parameter1": "4.50481273188317000000",
+      "Parameter0": "0.00000000000000000000"
+    },
+    {
+      "Color": 2,
+      "Parameter3": "0.00005179701789287090",
+      "Parameter2": "0.04904688300598580000",
+      "Parameter1": "-0.22342087057764300000",
+      "Parameter0": "0.00000000000000000000"
+    },
+    {
+      "Color": 3,
+      "Parameter3": "-0.00002815506169214790",
+      "Parameter2": "0.02312692682789040000",
+      "Parameter1": "-2.23642448891066000000",
+      "Parameter0": "0.00000000000000000000"
+    }
+  ],
+  "L_CParameters": [
+    {
+      "Color": 0,
+      "Parameter3": "-0.00009743883370609300",
+      "Parameter2": "0.09911405112496030000",
+      "Parameter1": "1.99859622376229000000",
+      "Parameter0": "0.00000000000000000000"
+    },
+    {
+      "Color": 1,
+      "Parameter3": "-0.00009782463464084680",
+      "Parameter2": "0.13149868478141200000",
+      "Parameter1": "8.24163494709382000000",
+      "Parameter0": "0.00000000000000000000"
+    },
+    {
+      "Color": 2,
+      "Parameter3": "0.00001143666201479800",
+      "Parameter2": "0.01854076604951230000",
+      "Parameter1": "-0.26747093742243400000",
+      "Parameter0": "0.00000000000000000000"
+    },
+    {
+      "Color": 3,
+      "Parameter3": "0.00000208775629972910",
+      "Parameter2": "0.03674454418448200000",
+      "Parameter1": "-6.17947990608599000000",
+      "Parameter0": "0.00000000000000000000"
+    }
+  ],
+  "M_CParameters": [
+    {
+      "Color": 0,
+      "Parameter3": "0.00025394080341177900",
+      "Parameter2": "0.15820982225261200000",
+      "Parameter1": "14.46694867866320000000",
+      "Parameter0": "0.00000000000000000000"
+    },
+    {
+      "Color": 1,
+      "Parameter3": "0.00019671336578612300",
+      "Parameter2": "0.26883132415859100000",
+      "Parameter1": "29.28912130253200000000",
+      "Parameter0": "0.00000000000000000000"
+    },
+    {
+      "Color": 2,
+      "Parameter3": "0.00007234518505072630",
+      "Parameter2": "0.06609873439442180000",
+      "Parameter1": "-0.15579957369950700000",
+      "Parameter0": "0.00000000000000000000"
+    },
+    {
+      "Color": 3,
+      "Parameter3": "-0.00014283034599869900",
+      "Parameter2": "0.11555965752617900000",
+      "Parameter1": "-10.93280033586510000000",
+      "Parameter0": "0.00000000000000000000"
+    }
+  ],
+  "L_IRBrightness": [
+    {
+      "Level": 0,
+      "BrightnessMin": 0,
+      "BrightnessMax": 300
+    },
+    {
+      "Level": 1,
+      "BrightnessMin": 300,
+      "BrightnessMax": 727
+    },
+    {
+      "Level": 2,
+      "BrightnessMin": 727,
+      "BrightnessMax": 1087
+    }
+  ],
+  "M_IRBrightness": [
+    {
+      "Level": 0,
+      "BrightnessMin": 1087,
+      "BrightnessMax": 1400
+    },
+    {
+      "Level": 1,
+      "BrightnessMin": 1400,
+      "BrightnessMax": 1632
+    },
+    {
+      "Level": 2,
+      "BrightnessMin": 1632,
+      "BrightnessMax": 2129
+    }
+  ],
+  "L_LuxCoeffLIR": [
+    {
+      "Level": 0,
+      "ChannelR": "-0.00420528387851144000",
+      "ChannelG": "0.00197625424993214000",
+      "ChannelB": "0.00119723952278834000",
+      "ChannelC": "0.01174633878379710000"
+    },
+    {
+      "Level": 1,
+      "ChannelR": "-0.00420528387851144000",
+      "ChannelG": "0.00197625424993214000",
+      "ChannelB": "0.00119723952278834000",
+      "ChannelC": "0.01174633878379710000"
+    },
+    {
+      "Level": 2,
+      "ChannelR": "-0.00420528387851144000",
+      "ChannelG": "0.00197625424993214000",
+      "ChannelB": "0.00119723952278834000",
+      "ChannelC": "0.01174633878379710000"
+    }
+  ],
+  "M_LuxCoeffLIR": [
+    {
+      "Level": 0,
+      "ChannelR": "-0.01923186045417910000",
+      "ChannelG": "-0.01863314592958110000",
+      "ChannelB": "-0.00699291682790631000",
+      "ChannelC": "0.02858490388945420000"
+    },
+    {
+      "Level": 1,
+      "ChannelR": "-0.01923186045417910000",
+      "ChannelG": "-0.01863314592958110000",
+      "ChannelB": "-0.00699291682790631000",
+      "ChannelC": "0.02858490388945420000"
+    },
+    {
+      "Level": 2,
+      "ChannelR": "-0.01923186045417910000",
+      "ChannelG": "-0.01863314592958110000",
+      "ChannelB": "-0.00699291682790631000",
+      "ChannelC": "0.02858490388945420000"
+    }
+  ],
+  "L_LuxCoeffHIR": [
+    {
+      "Level": 0,
+      "ChannelR": "-0.00420528387851144000",
+      "ChannelG": "0.00197625424993214000",
+      "ChannelB": "0.00119723952278834000",
+      "ChannelC": "0.01174633878379710000"
+    },
+    {
+      "Level": 1,
+      "ChannelR": "-0.00420528387851144000",
+      "ChannelG": "0.00197625424993214000",
+      "ChannelB": "0.00119723952278834000",
+      "ChannelC": "0.01174633878379710000"
+    },
+    {
+      "Level": 2,
+      "ChannelR": "-0.00420528387851144000",
+      "ChannelG": "0.00197625424993214000",
+      "ChannelB": "0.00119723952278834000",
+      "ChannelC": "0.01174633878379710000"
+    }
+  ],
+  "M_LuxCoeffHIR": [
+    {
+      "Level": 0,
+      "ChannelR": "-0.00924760106361016000",
+      "ChannelG": "0.01687708911255600000",
+      "ChannelB": "-0.01366148018821960000",
+      "ChannelC": "0.00901637422577932000"
+    },
+    {
+      "Level": 1,
+      "ChannelR": "-0.00924760106361016000",
+      "ChannelG": "0.01687708911255600000",
+      "ChannelB": "-0.01366148018821960000",
+      "ChannelC": "0.00901637422577932000"
+    },
+    {
+      "Level": 2,
+      "ChannelR": "-0.00924760106361016000",
+      "ChannelG": "0.01687708911255600000",
+      "ChannelB": "-0.01366148018821960000",
+      "ChannelC": "0.00901637422577932000"
+    }
+  ],
+  "L_LuxCoeffSuperHIR": [
+    {
+      "Level": 0,
+      "ChannelR": "-0.00420528387851144000",
+      "ChannelG": "0.00197625424993214000",
+      "ChannelB": "0.00119723952278834000",
+      "ChannelC": "0.01174633878379710000"
+    },
+    {
+      "Level": 1,
+      "ChannelR": "-0.00420528387851144000",
+      "ChannelG": "0.00197625424993214000",
+      "ChannelB": "0.00119723952278834000",
+      "ChannelC": "0.01174633878379710000"
+    },
+    {
+      "Level": 2,
+      "ChannelR": "-0.00420528387851144000",
+      "ChannelG": "0.00197625424993214000",
+      "ChannelB": "0.00119723952278834000",
+      "ChannelC": "0.01174633878379710000"
+    }
+  ],
+  "M_LuxCoeffSuperHIR": [
+    {
+      "Level": 0,
+      "ChannelR": "-0.00924760106361016000",
+      "ChannelG": "0.01687708911255600000",
+      "ChannelB": "-0.01366148018821960000",
+      "ChannelC": "0.00901637422577932000"
+    },
+    {
+      "Level": 1,
+      "ChannelR": "-0.00924760106361016000",
+      "ChannelG": "0.01687708911255600000",
+      "ChannelB": "-0.01366148018821960000",
+      "ChannelC": "0.00901637422577932000"
+    },
+    {
+      "Level": 2,
+      "ChannelR": "-0.00924760106361016000",
+      "ChannelG": "0.01687708911255600000",
+      "ChannelB": "-0.01366148018821960000",
+      "ChannelC": "0.00901637422577932000"
+    }
+  ],
+  "CommonConfig": {
+    "VersionCode": "2025040218",
+    "Project": "24720",
+    "Platform": "MT6899",
+    "LCDManufacture": {
+      "ManufactureId": 1
+    },
+    "SensorModule": {
+      "SensorModuleId": 3
+    },
+    "ApolloBrightnessSupported": true,
+    "ApolloBrightnessMax": 18711,
+    "NormalModeBrightnessMax": 3598,
+    "BrightnessMax": 4095,
+    "CWBSupported": true,
+    "ScreenshotThreadSupported": true,
+    "ScreenShotRect": {
+      "LeftTopX": 754,
+      "LeftTopY": 45,
+      "RightBottomX": 800,
+      "RightBottomY": 100
+    },
+    "ScreenResolution": {
+      "Width": 1280,
+      "Height": 2800
+    },
+    "EventBrightnessSupported": true,
+    "ScreenPanel": {
+      "ScreenPanelID": 0,
+      "ScreenPanelDescription": "Main"
+    },
+    "TriggerScreenShotDelay": 200,
+    "ScreenshotExpirationTime": 100,
+    "ValidEventPeriod": 90,
+    "SamplePeriodMillis": 200,
+    "SmoothQueueSupported": false,
+    "MedianEnqueueSupported": true,
+    "MedianEnqueueEventPeriod": 200,
+    "LowLightAccuracy": 0.0,
+    "FusionRGBSupported": true,
+    "FixInvalidBLeakEnabled": false,
+    "RawLuxTriggerCompensateSupported": false,
+    "ScreenOffCalLuxSupported": true,
+    "FODForceSFScreenShotSupported": true,
+    "FODLinearityParasSegmentSupported": true
+  },
+  "Golden": [
+    {
+      "Channel": 0,
+      "RGolden": "44753",
+      "GGolden": "19302",
+      "BGolden": "1423",
+      "WGolden": "62509"
+    },
+    {
+      "Channel": 1,
+      "RGolden": "4091",
+      "GGolden": "44458",
+      "BGolden": "4012",
+      "WGolden": "50228"
+    },
+    {
+      "Channel": 2,
+      "RGolden": "3434",
+      "GGolden": "14324",
+      "BGolden": "11441",
+      "WGolden": "28041"
+    },
+    {
+      "Channel": 3,
+      "RGolden": "48699",
+      "GGolden": "71418",
+      "BGolden": "15644",
+      "WGolden": "129523"
+    }
+  ],
+  "GreyScale": [
+    {
+      "Channel": 0,
+      "RGreyscale": "0.67862080602763800000",
+      "GGreyscale": "0.29988820849069900000",
+      "BGreyscale": "0.02149098548166280000"
+    },
+    {
+      "Channel": 1,
+      "RGreyscale": "0.07768186178537440000",
+      "GGreyscale": "0.84674094054949300000",
+      "BGreyscale": "0.07557719766513240000"
+    },
+    {
+      "Channel": 2,
+      "RGreyscale": "0.11722463180191900000",
+      "GGreyscale": "0.49172884373431500000",
+      "BGreyscale": "0.39104652446376600000"
+    },
+    {
+      "Channel": 3,
+      "RGreyscale": "0.35570696141257600000",
+      "GGreyscale": "0.52966199071845100000",
+      "BGreyscale": "0.11463104786897300000"
+    }
+  ],
+  "RParameters": [
+    {
+      "Color": 0,
+      "Parameter3": "0.00076436505999572900",
+      "Parameter2": "0.41278830397983300000",
+      "Parameter1": "23.09082972420340000000",
+      "Parameter0": "0.00000000000000000000"
+    },
+    {
+      "Color": 1,
+      "Parameter3": "0.00022172006679945700",
+      "Parameter2": "0.17883669009482300000",
+      "Parameter1": "17.24925200823480000000",
+      "Parameter0": "0.00000000000000000000"
+    },
+    {
+      "Color": 2,
+      "Parameter3": "0.00001015039622904020",
+      "Parameter2": "0.02140838873081210000",
+      "Parameter1": "-0.44037196529391700000",
+      "Parameter0": "0.00000000000000000000"
+    },
+    {
+      "Color": 3,
+      "Parameter3": "-0.00025070746424755300",
+      "Parameter2": "0.12215685341520000000",
+      "Parameter1": "-6.54494132508769000000",
+      "Parameter0": "0.00000000000000000000"
+    }
+  ],
+  "GParameters": [
+    {
+      "Color": 0,
+      "Parameter3": "0.00007234965093898450",
+      "Parameter2": "0.03846855484500360000",
+      "Parameter1": "1.92873339024872000000",
+      "Parameter0": "0.00000000000000000000"
+    },
+    {
+      "Color": 1,
+      "Parameter3": "0.00055198009045159800",
+      "Parameter2": "0.42919165525349100000",
+      "Parameter1": "31.42458115078410000000",
+      "Parameter0": "0.00000000000000000000"
+    },
+    {
+      "Color": 2,
+      "Parameter3": "0.00003807589243485020",
+      "Parameter2": "0.05553991362111860000",
+      "Parameter1": "-0.56951491071379700000",
+      "Parameter0": "0.00000000000000000000"
+    },
+    {
+      "Color": 3,
+      "Parameter3": "-0.00022609387931321700",
+      "Parameter2": "0.10533491772899400000",
+      "Parameter1": "-6.92906161857368000000",
+      "Parameter0": "0.00000000000000000000"
+    }
+  ],
+  "BParameters": [
+    {
+      "Color": 0,
+      "Parameter3": "0.00005283976840494430",
+      "Parameter2": "0.03414839071255770000",
+      "Parameter1": "1.56254271292495000000",
+      "Parameter0": "0.00000000000000000000"
+    },
+    {
+      "Color": 1,
+      "Parameter3": "0.00018724961698059300",
+      "Parameter2": "0.14128178914835100000",
+      "Parameter1": "8.83951124337018000000",
+      "Parameter0": "0.00000000000000000000"
+    },
+    {
+      "Color": 2,
+      "Parameter3": "0.00012647296214763900",
+      "Parameter2": "0.15235027898358600000",
+      "Parameter1": "-0.98222065254605500000",
+      "Parameter0": "0.00000000000000000000"
+    },
+    {
+      "Color": 3,
+      "Parameter3": "-0.00010755047510252200",
+      "Parameter2": "0.05005782795478830000",
+      "Parameter1": "-2.82375445534859000000",
+      "Parameter0": "0.00000000000000000000"
+    }
+  ],
+  "CParameters": [
+    {
+      "Color": 0,
+      "Parameter3": "0.00084038470064878200",
+      "Parameter2": "0.44718600867213400000",
+      "Parameter1": "25.34748316981300000000",
+      "Parameter0": "0.00000000000000000000"
+    },
+    {
+      "Color": 1,
+      "Parameter3": "0.00086417159513227300",
+      "Parameter2": "0.68568563047292400000",
+      "Parameter1": "53.86219471016580000000",
+      "Parameter0": "0.00000000000000000000"
+    },
+    {
+      "Color": 2,
+      "Parameter3": "0.00017407720349296600",
+      "Parameter2": "0.20704771190765000000",
+      "Parameter1": "-1.16740471058623000000",
+      "Parameter0": "0.00000000000000000000"
+    },
+    {
+      "Color": 3,
+      "Parameter3": "-0.00041754131039595100",
+      "Parameter2": "0.22199236042583700000",
+      "Parameter1": "-12.65509789861910000000",
+      "Parameter0": "0.00000000000000000000"
+    }
+  ],
+  "IRThreshold": [
+    {
+      "Level": 0,
+      "IR_Ratio_Min": 0.0,
+      "IR_Ratio_Max": 0.09
+    },
+    {
+      "Level": 1,
+      "IR_Ratio_Min": 0.09,
+      "IR_Ratio_Max": 0.5
+    },
+    {
+      "Level": 2,
+      "IR_Ratio_Min": 0.5,
+      "IR_Ratio_Max": 10.0
+    }
+  ],
+  "IRBrightness": [
+    {
+      "Level": 0,
+      "BrightnessMin": 2129,
+      "BrightnessMax": 2922
+    },
+    {
+      "Level": 1,
+      "BrightnessMin": 2922,
+      "BrightnessMax": 3515
+    },
+    {
+      "Level": 2,
+      "BrightnessMin": 3515,
+      "BrightnessMax": 4095
+    }
+  ],
+  "LuxCoeffLIR": [
+    {
+      "Level": 0,
+      "ChannelR": "-0.01923186045417910000",
+      "ChannelG": "-0.01863314592958110000",
+      "ChannelB": "-0.00699291682790631000",
+      "ChannelC": "0.02858490388945420000"
+    },
+    {
+      "Level": 1,
+      "ChannelR": "-0.01923186045417910000",
+      "ChannelG": "-0.01863314592958110000",
+      "ChannelB": "-0.00699291682790631000",
+      "ChannelC": "0.02858490388945420000"
+    },
+    {
+      "Level": 2,
+      "ChannelR": "-0.01923186045417910000",
+      "ChannelG": "-0.01863314592958110000",
+      "ChannelB": "-0.00699291682790631000",
+      "ChannelC": "0.02858490388945420000"
+    }
+  ],
+  "LuxCoeffHIR": [
+    {
+      "Level": 0,
+      "ChannelR": "-0.00924760106361016000",
+      "ChannelG": "0.01687708911255600000",
+      "ChannelB": "-0.01366148018821960000",
+      "ChannelC": "0.00901637422577932000"
+    },
+    {
+      "Level": 1,
+      "ChannelR": "-0.00924760106361016000",
+      "ChannelG": "0.01687708911255600000",
+      "ChannelB": "-0.01366148018821960000",
+      "ChannelC": "0.00901637422577932000"
+    },
+    {
+      "Level": 2,
+      "ChannelR": "-0.00924760106361016000",
+      "ChannelG": "0.01687708911255600000",
+      "ChannelB": "-0.01366148018821960000",
+      "ChannelC": "0.00901637422577932000"
+    }
+  ],
+  "LuxCoeffSuperHIR": [
+    {
+      "Level": 0,
+      "ChannelR": "-0.00924760106361016000",
+      "ChannelG": "0.01687708911255600000",
+      "ChannelB": "-0.01366148018821960000",
+      "ChannelC": "0.00901637422577932000"
+    },
+    {
+      "Level": 1,
+      "ChannelR": "-0.00924760106361016000",
+      "ChannelG": "0.01687708911255600000",
+      "ChannelB": "-0.01366148018821960000",
+      "ChannelC": "0.00901637422577932000"
+    },
+    {
+      "Level": 2,
+      "ChannelR": "-0.00924760106361016000",
+      "ChannelG": "0.01687708911255600000",
+      "ChannelB": "-0.01366148018821960000",
+      "ChannelC": "0.00901637422577932000"
+    }
+  ],
+  "LinearityType": 6,
+  "LinearityBrightnessRange": [
+    {
+      "Level": 0,
+      "BrightnessMin": 0,
+      "BrightnessMax": 186
+    },
+    {
+      "Level": 1,
+      "BrightnessMin": 186,
+      "BrightnessMax": 411
+    },
+    {
+      "Level": 2,
+      "BrightnessMin": 411,
+      "BrightnessMax": 727
+    },
+    {
+      "Level": 3,
+      "BrightnessMin": 727,
+      "BrightnessMax": 1087
+    },
+    {
+      "Level": 4,
+      "BrightnessMin": 1087,
+      "BrightnessMax": 1632
+    },
+    {
+      "Level": 5,
+      "BrightnessMin": 1632,
+      "BrightnessMax": 2129
+    },
+    {
+      "Level": 6,
+      "BrightnessMin": 2129,
+      "BrightnessMax": 2922
+    },
+    {
+      "Level": 7,
+      "BrightnessMin": 2922,
+      "BrightnessMax": 3515
+    },
+    {
+      "Level": 8,
+      "BrightnessMin": 3515,
+      "BrightnessMax": 4095
+    }
+  ],
+  "Linearity": [
+    {
+      "Function": 0,
+      "LinearityParameter": [
+        {
+          "Channel": 0,
+          "Parameter0": "-0.00000000205707690758",
+          "Parameter1": "0.00000067614780275465",
+          "Parameter2": "0.00014926556383369700",
+          "Parameter3": "0.08922834243427090000"
+        },
+        {
+          "Channel": 1,
+          "Parameter0": "-0.00000000215995841205",
+          "Parameter1": "0.00000074974115699312",
+          "Parameter2": "0.00015128774761759700",
+          "Parameter3": "0.09197373046323040000"
+        },
+        {
+          "Channel": 2,
+          "Parameter0": "-0.00000000162392447674",
+          "Parameter1": "0.00000063847922120192",
+          "Parameter2": "0.00012608855158474100",
+          "Parameter3": "0.06962956514461870000"
+        },
+        {
+          "Channel": 3,
+          "Parameter0": "-0.00000000209863669344",
+          "Parameter1": "0.00000071926861205041",
+          "Parameter2": "0.00014455357697056900",
+          "Parameter3": "0.08881065188667970000"
+        }
+      ]
+    },
+    {
+      "Function": 1,
+      "LinearityParameter": [
+        {
+          "Channel": 0,
+          "Parameter0": "0.00000000017636664681",
+          "Parameter1": "0.00000052654222315373",
+          "Parameter2": "0.00012661764462700000",
+          "Parameter3": "0.08544941592221040000"
+        },
+        {
+          "Channel": 1,
+          "Parameter0": "0.00000000099991503238",
+          "Parameter1": "-0.00000026046761180544",
+          "Parameter2": "0.00037692808150655500",
+          "Parameter3": "0.06574574025483090000"
+        },
+        {
+          "Channel": 2,
+          "Parameter0": "0.00000000084025011316",
+          "Parameter1": "-0.00000003410788534310",
+          "Parameter2": "0.00026253147153446900",
+          "Parameter3": "0.05247718483515070000"
+        },
+        {
+          "Channel": 3,
+          "Parameter0": "0.00000000083636583941",
+          "Parameter1": "-0.00000008168397804298",
+          "Parameter2": "0.00030690372120403800",
+          "Parameter3": "0.06843699985280140000"
+        }
+      ]
+    },
+    {
+      "Function": 2,
+      "LinearityParameter": [
+        {
+          "Channel": 0,
+          "Parameter0": "0.00000000046275162952",
+          "Parameter1": "-0.00000008382112092506",
+          "Parameter2": "0.00050230782285870100",
+          "Parameter3": "0.01923014677730900000"
+        },
+        {
+          "Channel": 1,
+          "Parameter0": "0.00000000046107793198",
+          "Parameter1": "-0.00000001081653341870",
+          "Parameter2": "0.00041815896940247000",
+          "Parameter3": "0.04928992853242230000"
+        },
+        {
+          "Channel": 2,
+          "Parameter0": "0.00000000029015138092",
+          "Parameter1": "0.00000027994408602492",
+          "Parameter2": "0.00027953729027926800",
+          "Parameter3": "0.03545512939648610000"
+        },
+        {
+          "Channel": 3,
+          "Parameter0": "0.00000000045982819419",
+          "Parameter1": "-0.00000004909007516450",
+          "Parameter2": "0.00046603133399680700",
+          "Parameter3": "0.02863512612899350000"
+        }
+      ]
+    },
+    {
+      "Function": 3,
+      "LinearityParameter": [
+        {
+          "Channel": 0,
+          "Parameter0": "-0.00000000071593192340",
+          "Parameter1": "0.00000219755222489128",
+          "Parameter2": "-0.00077882177508650800",
+          "Parameter3": "0.20246762969704900000"
+        },
+        {
+          "Channel": 1,
+          "Parameter0": "-0.00000000070705043219",
+          "Parameter1": "0.00000216944671541390",
+          "Parameter2": "-0.00078240208697780100",
+          "Parameter3": "0.22347514207761900000"
+        },
+        {
+          "Channel": 2,
+          "Parameter0": "-0.00000000058499114054",
+          "Parameter1": "0.00000186040925589958",
+          "Parameter2": "-0.00044870120752300100",
+          "Parameter3": "0.07052149816080110000"
+        },
+        {
+          "Channel": 3,
+          "Parameter0": "-0.00000000065413878521",
+          "Parameter1": "0.00000202421119967509",
+          "Parameter2": "-0.00062713515215118600",
+          "Parameter3": "0.16040348776845200000"
+        }
+      ]
+    },
+    {
+      "Function": 4,
+      "LinearityParameter": [
+        {
+          "Channel": 0,
+          "Parameter0": "0.00000000020621774378",
+          "Parameter1": "0.00000003739986187143",
+          "Parameter2": "0.00029070371033141900",
+          "Parameter3": "0.35954940098195500000"
+        },
+        {
+          "Channel": 1,
+          "Parameter0": "0.00000000021971240054",
+          "Parameter1": "-0.00000007930613604314",
+          "Parameter2": "0.00047324789125475500",
+          "Parameter3": "0.28350702046265100000"
+        },
+        {
+          "Channel": 2,
+          "Parameter0": "0.00000000027277612676",
+          "Parameter1": "-0.00000010749801245236",
+          "Parameter2": "0.00048748591358570300",
+          "Parameter3": "0.23151468151333500000"
+        },
+        {
+          "Channel": 3,
+          "Parameter0": "0.00000000024155922823",
+          "Parameter1": "-0.00000010934516826312",
+          "Parameter2": "0.00049483200157998800",
+          "Parameter3": "0.26617405920972900000"
+        }
+      ]
+    },
+    {
+      "Function": 5,
+      "LinearityParameter": [
+        {
+          "Channel": 0,
+          "Parameter0": "0.00000000008142634909",
+          "Parameter1": "0.00000004075800114265",
+          "Parameter2": "-0.00011638476058661100",
+          "Parameter3": "0.31551449171119300000"
+        },
+        {
+          "Channel": 1,
+          "Parameter0": "0.00000000007720142149",
+          "Parameter1": "0.00000005770472642194",
+          "Parameter2": "-0.00014954626816469000",
+          "Parameter3": "0.34958474982520800000"
+        },
+        {
+          "Channel": 2,
+          "Parameter0": "0.00000000006182803242",
+          "Parameter1": "0.00000017591674161526",
+          "Parameter2": "-0.00037994837279931800",
+          "Parameter3": "0.45374317518685300000"
+        },
+        {
+          "Channel": 3,
+          "Parameter0": "0.00000000006389454157",
+          "Parameter1": "0.00000014392916728529",
+          "Parameter2": "-0.00031622689574501200",
+          "Parameter3": "0.44259213841825100000"
+        }
+      ]
+    },
+    {
+      "Function": 6,
+      "LinearityParameter": [
+        {
+          "Channel": 0,
+          "Parameter0": "0.00000000006505433092",
+          "Parameter1": "-0.00000034827660729899",
+          "Parameter2": "0.00092930967859973700",
+          "Parameter3": "-0.64519158184845500000"
+        },
+        {
+          "Channel": 1,
+          "Parameter0": "0.00000000006869443765",
+          "Parameter1": "-0.00000037848361740824",
+          "Parameter2": "0.00100605973239796000",
+          "Parameter3": "-0.70078163038996000000"
+        },
+        {
+          "Channel": 2,
+          "Parameter0": "0.00000000005774795948",
+          "Parameter1": "-0.00000029451986396719",
+          "Parameter2": "0.00080462373643259900",
+          "Parameter3": "-0.56732284950354300000"
+        },
+        {
+          "Channel": 3,
+          "Parameter0": "0.00000000006481382147",
+          "Parameter1": "-0.00000035155741798099",
+          "Parameter2": "0.00094877750717226400",
+          "Parameter3": "-0.66776978864524400000"
+        }
+      ]
+    },
+    {
+      "Function": 7,
+      "LinearityParameter": [
+        {
+          "Channel": 0,
+          "Parameter0": "-0.00000000003846887546",
+          "Parameter1": "0.00000045336328626954",
+          "Parameter2": "-0.00115840535759503000",
+          "Parameter3": "1.19329081766546000000"
+        },
+        {
+          "Channel": 1,
+          "Parameter0": "-0.00000000003053104971",
+          "Parameter1": "0.00000037888027785696",
+          "Parameter2": "-0.00092887502691728800",
+          "Parameter3": "0.96189827218110100000"
+        },
+        {
+          "Channel": 2,
+          "Parameter0": "-0.00000000001660414575",
+          "Parameter1": "0.00000024994534984513",
+          "Parameter2": "-0.00051396464391358300",
+          "Parameter3": "0.49158971479492100000"
+        },
+        {
+          "Channel": 3,
+          "Parameter0": "-0.00000000005105531635",
+          "Parameter1": "0.00000057558637713518",
+          "Parameter2": "-0.00155354109942864000",
+          "Parameter3": "1.61857454484047000000"
+        }
+      ]
+    },
+    {
+      "Function": 8,
+      "LinearityParameter": [
+        {
+          "Channel": 0,
+          "Parameter0": "0.0",
+          "Parameter1": "0.0",
+          "Parameter2": "0.00143686534862119000",
+          "Parameter3": "-4.05949719516893000000"
+        },
+        {
+          "Channel": 1,
+          "Parameter0": "0.0",
+          "Parameter1": "0.0",
+          "Parameter2": "0.00138778090260635000",
+          "Parameter3": "-3.88512159510751000000"
+        },
+        {
+          "Channel": 2,
+          "Parameter0": "0.0",
+          "Parameter1": "0.0",
+          "Parameter2": "0.00150007827375984000",
+          "Parameter3": "-4.28119192849023000000"
+        },
+        {
+          "Channel": 3,
+          "Parameter0": "0.0",
+          "Parameter1": "0.0",
+          "Parameter2": "0.00142284511005450000",
+          "Parameter3": "-4.00872569068542000000"
+        }
+      ]
+    }
+  ],
+  "LinearityForFOD": {
+    "FOD_Linearity_R": "2",
+    "FOD_Linearity_G": "2",
+    "FOD_Linearity_B": "2",
+    "FOD_Linearity_C": "2"
+  },
+  "LinearityForFODSegment": [
+    {
+      "Function": 0,
+      "LinearityParameter": [
+        {
+          "Channel": 0,
+          "Parameter0": "-0.00000000205707690758",
+          "Parameter1": "0.00000067614780275465",
+          "Parameter2": "0.00014926556383369700",
+          "Parameter3": "0.08922834243427090000"
+        },
+        {
+          "Channel": 1,
+          "Parameter0": "-0.00000000215995841205",
+          "Parameter1": "0.00000074974115699312",
+          "Parameter2": "0.00015128774761759700",
+          "Parameter3": "0.09197373046323040000"
+        },
+        {
+          "Channel": 2,
+          "Parameter0": "-0.00000000162392447674",
+          "Parameter1": "0.00000063847922120192",
+          "Parameter2": "0.00012608855158474100",
+          "Parameter3": "0.06962956514461870000"
+        },
+        {
+          "Channel": 3,
+          "Parameter0": "-0.00000000209863669344",
+          "Parameter1": "0.00000071926861205041",
+          "Parameter2": "0.00014455357697056900",
+          "Parameter3": "0.08881065188667970000"
+        }
+      ]
+    },
+    {
+      "Function": 1,
+      "LinearityParameter": [
+        {
+          "Channel": 0,
+          "Parameter0": "0.00000000017636664681",
+          "Parameter1": "0.00000052654222315373",
+          "Parameter2": "0.00012661764462700000",
+          "Parameter3": "0.08544941592221040000"
+        },
+        {
+          "Channel": 1,
+          "Parameter0": "0.00000000099991503238",
+          "Parameter1": "-0.00000026046761180544",
+          "Parameter2": "0.00037692808150655500",
+          "Parameter3": "0.06574574025483090000"
+        },
+        {
+          "Channel": 2,
+          "Parameter0": "0.00000000084025011316",
+          "Parameter1": "-0.00000003410788534310",
+          "Parameter2": "0.00026253147153446900",
+          "Parameter3": "0.05247718483515070000"
+        },
+        {
+          "Channel": 3,
+          "Parameter0": "0.00000000083636583941",
+          "Parameter1": "-0.00000008168397804298",
+          "Parameter2": "0.00030690372120403800",
+          "Parameter3": "0.06843699985280140000"
+        }
+      ]
+    },
+    {
+      "Function": 2,
+      "LinearityParameter": [
+        {
+          "Channel": 0,
+          "Parameter0": "0.00000000046275162952",
+          "Parameter1": "-0.00000008382112092506",
+          "Parameter2": "0.00050230782285870100",
+          "Parameter3": "0.01923014677730900000"
+        },
+        {
+          "Channel": 1,
+          "Parameter0": "0.00000000046107793198",
+          "Parameter1": "-0.00000001081653341870",
+          "Parameter2": "0.00041815896940247000",
+          "Parameter3": "0.04928992853242230000"
+        },
+        {
+          "Channel": 2,
+          "Parameter0": "0.00000000029015138092",
+          "Parameter1": "0.00000027994408602492",
+          "Parameter2": "0.00027953729027926800",
+          "Parameter3": "0.03545512939648610000"
+        },
+        {
+          "Channel": 3,
+          "Parameter0": "0.00000000045982819419",
+          "Parameter1": "-0.00000004909007516450",
+          "Parameter2": "0.00046603133399680700",
+          "Parameter3": "0.02863512612899350000"
+        }
+      ]
+    },
+    {
+      "Function": 3,
+      "LinearityParameter": [
+        {
+          "Channel": 0,
+          "Parameter0": "-0.00000000071593192340",
+          "Parameter1": "0.00000219755222489128",
+          "Parameter2": "-0.00077882177508650800",
+          "Parameter3": "0.20246762969704900000"
+        },
+        {
+          "Channel": 1,
+          "Parameter0": "-0.00000000070705043219",
+          "Parameter1": "0.00000216944671541390",
+          "Parameter2": "-0.00078240208697780100",
+          "Parameter3": "0.22347514207761900000"
+        },
+        {
+          "Channel": 2,
+          "Parameter0": "-0.00000000058499114054",
+          "Parameter1": "0.00000186040925589958",
+          "Parameter2": "-0.00044870120752300100",
+          "Parameter3": "0.07052149816080110000"
+        },
+        {
+          "Channel": 3,
+          "Parameter0": "-0.00000000065413878521",
+          "Parameter1": "0.00000202421119967509",
+          "Parameter2": "-0.00062713515215118600",
+          "Parameter3": "0.16040348776845200000"
+        }
+      ]
+    },
+    {
+      "Function": 4,
+      "LinearityParameter": [
+        {
+          "Channel": 0,
+          "Parameter0": "0.00000000020621774378",
+          "Parameter1": "0.00000003739986187143",
+          "Parameter2": "0.00029070371033141900",
+          "Parameter3": "0.35954940098195500000"
+        },
+        {
+          "Channel": 1,
+          "Parameter0": "0.00000000021971240054",
+          "Parameter1": "-0.00000007930613604314",
+          "Parameter2": "0.00047324789125475500",
+          "Parameter3": "0.28350702046265100000"
+        },
+        {
+          "Channel": 2,
+          "Parameter0": "0.00000000027277612676",
+          "Parameter1": "-0.00000010749801245236",
+          "Parameter2": "0.00048748591358570300",
+          "Parameter3": "0.23151468151333500000"
+        },
+        {
+          "Channel": 3,
+          "Parameter0": "0.00000000024155922823",
+          "Parameter1": "-0.00000010934516826312",
+          "Parameter2": "0.00049483200157998800",
+          "Parameter3": "0.26617405920972900000"
+        }
+      ]
+    },
+    {
+      "Function": 5,
+      "LinearityParameter": [
+        {
+          "Channel": 0,
+          "Parameter0": "0.00000000008142634909",
+          "Parameter1": "0.00000004075800114265",
+          "Parameter2": "-0.00011638476058661100",
+          "Parameter3": "0.31551449171119300000"
+        },
+        {
+          "Channel": 1,
+          "Parameter0": "0.00000000007720142149",
+          "Parameter1": "0.00000005770472642194",
+          "Parameter2": "-0.00014954626816469000",
+          "Parameter3": "0.34958474982520800000"
+        },
+        {
+          "Channel": 2,
+          "Parameter0": "0.00000000006182803242",
+          "Parameter1": "0.00000017591674161526",
+          "Parameter2": "-0.00037994837279931800",
+          "Parameter3": "0.45374317518685300000"
+        },
+        {
+          "Channel": 3,
+          "Parameter0": "0.00000000006389454157",
+          "Parameter1": "0.00000014392916728529",
+          "Parameter2": "-0.00031622689574501200",
+          "Parameter3": "0.44259213841825100000"
+        }
+      ]
+    },
+    {
+      "Function": 6,
+      "LinearityParameter": [
+        {
+          "Channel": 0,
+          "Parameter0": "0.00000000006505433092",
+          "Parameter1": "-0.00000034827660729899",
+          "Parameter2": "0.00092930967859973700",
+          "Parameter3": "-0.64519158184845500000"
+        },
+        {
+          "Channel": 1,
+          "Parameter0": "0.00000000006869443765",
+          "Parameter1": "-0.00000037848361740824",
+          "Parameter2": "0.00100605973239796000",
+          "Parameter3": "-0.70078163038996000000"
+        },
+        {
+          "Channel": 2,
+          "Parameter0": "0.00000000005774795948",
+          "Parameter1": "-0.00000029451986396719",
+          "Parameter2": "0.00080462373643259900",
+          "Parameter3": "-0.56732284950354300000"
+        },
+        {
+          "Channel": 3,
+          "Parameter0": "0.00000000006481382147",
+          "Parameter1": "-0.00000035155741798099",
+          "Parameter2": "0.00094877750717226400",
+          "Parameter3": "-0.66776978864524400000"
+        }
+      ]
+    },
+    {
+      "Function": 7,
+      "LinearityParameter": [
+        {
+          "Channel": 0,
+          "Parameter0": "-0.00000000003846887546",
+          "Parameter1": "0.00000045336328626954",
+          "Parameter2": "-0.00115840535759503000",
+          "Parameter3": "1.19329081766546000000"
+        },
+        {
+          "Channel": 1,
+          "Parameter0": "-0.00000000003053104971",
+          "Parameter1": "0.00000037888027785696",
+          "Parameter2": "-0.00092887502691728800",
+          "Parameter3": "0.96189827218110100000"
+        },
+        {
+          "Channel": 2,
+          "Parameter0": "-0.00000000001660414575",
+          "Parameter1": "0.00000024994534984513",
+          "Parameter2": "-0.00051396464391358300",
+          "Parameter3": "0.49158971479492100000"
+        },
+        {
+          "Channel": 3,
+          "Parameter0": "-0.00000000005105531635",
+          "Parameter1": "0.00000057558637713518",
+          "Parameter2": "-0.00155354109942864000",
+          "Parameter3": "1.61857454484047000000"
+        }
+      ]
+    },
+    {
+      "Function": 8,
+      "LinearityParameter": [
+        {
+          "Channel": 0,
+          "Parameter0": "0.0",
+          "Parameter1": "0.0",
+          "Parameter2": "0.00143686534862119000",
+          "Parameter3": "-4.05949719516893000000"
+        },
+        {
+          "Channel": 1,
+          "Parameter0": "0.0",
+          "Parameter1": "0.0",
+          "Parameter2": "0.00138778090260635000",
+          "Parameter3": "-3.88512159510751000000"
+        },
+        {
+          "Channel": 2,
+          "Parameter0": "0.0",
+          "Parameter1": "0.0",
+          "Parameter2": "0.00150007827375984000",
+          "Parameter3": "-4.28119192849023000000"
+        },
+        {
+          "Channel": 3,
+          "Parameter0": "0.0",
+          "Parameter1": "0.0",
+          "Parameter2": "0.00142284511005450000",
+          "Parameter3": "-4.00872569068542000000"
+        }
+      ]
+    }
+  ],
+  "FusionLightBrightnesses": [
+    {
+      "Level": 0,
+      "Brightness": 4095
+    },
+    {
+      "Level": 1,
+      "Brightness": 2129
+    },
+    {
+      "Level": 2,
+      "Brightness": 1632
+    }
+  ],
+  "CZeroThresholdSegment": 1,
+  "CZeroThreshold": [
+    {
+      "Level": 0,
+      "CZeroMin": 0
+    },
+    {
+      "Level": 1,
+      "CZeroMin": 4700
+    }
+  ],
+  "LuxCoeffLirScreenOff": [
+    {
+      "Level": 0,
+      "ChannelR": "-0.00420528387851144000",
+      "ChannelG": "0.00197625424993214000",
+      "ChannelB": "0.00119723952278834000",
+      "ChannelC": "0.01174633878379710000"
+    },
+    {
+      "Level": 1,
+      "ChannelR": "-0.01923186045417910000",
+      "ChannelG": "-0.01863314592958110000",
+      "ChannelB": "-0.00699291682790631000",
+      "ChannelC": "0.02858490388945420000"
+    }
+  ],
+  "LuxCoeffHirScreenOff": [
+    {
+      "Level": 0,
+      "ChannelR": "-0.00420528387851144000",
+      "ChannelG": "0.00197625424993214000",
+      "ChannelB": "0.00119723952278834000",
+      "ChannelC": "0.01174633878379710000"
+    },
+    {
+      "Level": 1,
+      "ChannelR": "-0.00924760106361016000",
+      "ChannelG": "0.01687708911255600000",
+      "ChannelB": "-0.01366148018821960000",
+      "ChannelC": "0.00901637422577932000"
+    }
+  ],
+  "LuxCoeffSuperHirScreenOff": [
+    {
+      "Level": 0,
+      "ChannelR": "-0.00420528387851144000",
+      "ChannelG": "0.00197625424993214000",
+      "ChannelB": "0.00119723952278834000",
+      "ChannelC": "0.01174633878379710000"
+    },
+    {
+      "Level": 1,
+      "ChannelR": "-0.00924760106361016000",
+      "ChannelG": "0.01687708911255600000",
+      "ChannelB": "-0.01366148018821960000",
+      "ChannelC": "0.00901637422577932000"
+    }
+  ]
+}

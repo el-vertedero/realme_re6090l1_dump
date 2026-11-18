@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <app>com.grabtaxi.driver2</app>
+    <app>com.application.zomato</app>
+    <app>in.swiggy.android</app>
+    <app>com.grofers.customerapp</app>
+    <app>com.global.foodpanda.android</app>
+    <app>com.grability.rappi</app>
+    <app>com.ubercab.eats</app>
+    <app>com.xiaojukeji.didi.global.customer</app>
+    <app>ru.foodfox.courier.debug.releaseserver</app>
+    <app>com.careem.acma</app>
+    <app>com.logistics.rider.talabat</app>
+    <app>com.grabtaxi.driver2</app>
+    <app>com.gojek.app</app>
+    <app>com.logistics.rider.glovo</app>
+    <app>com.glovoapp.courier</app>
+</filter-conf>

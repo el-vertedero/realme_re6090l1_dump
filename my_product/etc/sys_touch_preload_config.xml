@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filter-conf>
+    <version>202610101</version>
+    <isOpen>1</isOpen>
+    <filter-name>sys_touch_preload_config</filter-name>
+    <isBoost timeout="300">0</isBoost>
+
+    <black-list>
+        <blackPkg pkgName="com.spotify.musiccc"/>
+    </black-list>
+
+    <white-list>
+        <!--系统应用-->
+        <whitePkg pkgName="com.android.settings"/><!--设置-->
+        <whitePkg pkgName="com.coloros.note"/> <!--便签-->
+        <whitePkg pkgName="com.coloros.calendar"/> <!--日历-->
+        <whitePkg pkgName="com.coloros.calculator"/> <!--计算器-->
+        <whitePkg pkgName="com.coloros.alarmclock"/> <!--时钟-->
+        <whitePkg pkgName="com.coloros.weather2"/> <!--天气-->
+        <whitePkg pkgName="com.coloros.backuprestore"/> <!--手机搬家-->
+        <whitePkg pkgName="com.coloros.compass2"/> <!--指南针-->
+        <whitePkg pkgName="com.coloros.soundrecorder"/> <!--录音-->
+        <whitePkg pkgName="com.coloros.weather"/> <!--Weather-->
+        <whitePkg pkgName="com.nearme.note"/> <!--便签-->
+        <whitePkg pkgName="com.nearme.themestore"/> <!--主题商店-->
+        <whitePkg pkgName="com.oplus.themestore"/> <!--themestore-->
+        <whitePkg pkgName="com.oneplus.brickmode"/> <!--brickmode-->
+        <whitePkg pkgName="com.redteamobile.roaming"/> <!--国际上网-->
+        <whitePkg pkgName="com.nearme.instant.platfor"/> <!--游戏中心-->
+        <whitePkg pkgName="com.google.android.contacts"/> <!--google contacts-->
+        <whitePkg pkgName="com.google.android.dialer"/><!--google dialer-->
+        <whitePkg pkgName="com.google.android.apps.messaging"/>
+        <whitePkg pkgName="com.heytap.music"/> <!--OPPO音乐-->
+        <whitePkg pkgName="com.heytap.reader"/> <!--OPPO阅读-->
+        <whitePkg pkgName="com.heytap.book"/> <!--OPPO书城-->
+        <whitePkg pkgName="com.android.contacts"/> <!--oppo 系统通话-联系人/电话本-->
+        <whitePkg pkgName="com.android.mms"/> <!--oppo message-->
+        <whitePkg pkgName="com.heytap.browser"/><!--oppo 浏览器-->
+        <!-- com.oplus.pscanvas 配置前需要先与窗口对齐，避免与提前启动activity冲突 -->
+
+        <!--top 三方应用-->
+        <whitePkg pkgName="com.spotify.music"/>
+        <whitePkg pkgName="com.android.chrome"/>
+        <whitePkg pkgName="com.facebook.appmanager"/>
+        <whitePkg pkgName="com.google.android.youtube"/>
+        <whitePkg pkgName="com.linkedin.android"/>
+        <whitePkg pkgName="com.whatsapp"/>
+        <whitePkg pkgName="com.snapchat.android"/>
+        <whitePkg pkgName="com.facebook.orca"/>
+        <whitePkg pkgName="com.instagram.android"/>
+        <whitePkg pkgName="com.coloros.gallery3d"/>
+        <whitePkg pkgName="com.google.android.dialer"/>
+        <whitePkg pkgName="com.awt.kalnirnay"/>
+        <whitePkg pkgName="com.zhiliaoapp.musically"/>
+        <whitePkg pkgName="com.connect.enduser"/>
+        <whitePkg pkgName="com.facebook.katana"/>
+        <whitePkg pkgName="com.android.settings"/>
+        <whitePkg pkgName="com.openai.chatgpt"/>
+        <whitePkg pkgName="org.cris.aikyam"/>
+        <whitePkg pkgName="com.ss.android.ugc.trill"/>
+        <whitePkg pkgName="com.phonepe.app"/>
+        <whitePkg pkgName="jp.naver.line.android"/>
+        <whitePkg pkgName="com.google.android.apps.nbu.paisa.user"/>
+        <whitePkg pkgName="com.android.vending"/>
+        <whitePkg pkgName="com.kasikorn.retail.mbanking.wap"/>
+        <whitePkg pkgName="in.amazon.mShop.android.shopping"/>
+        <whitePkg pkgName="com.scb.phone"/>
+        <whitePkg pkgName="com.canarabank.mobility"/>
+        <whitePkg pkgName="com.sbi.lotusintouch"/>
+        <whitePkg pkgName="com.kotak811mobilebankingapp.instantsavingsupiscanandpayrecharge"/>
+        <whitePkg pkgName="com.pubg.imobile"/>
+        <whitePkg pkgName="com.mpokket.app"/>
+        <whitePkg pkgName="com.csam.icici.bank.imobile"/>
+        <whitePkg pkgName="com.ubercab.driver"/>
+        <whitePkg pkgName="com.xplay.pop_antistress_simulator"/>
+        <whitePkg pkgName="com.lemon.lvoverseas"/>
+        <whitePkg pkgName="com.ril.ajio"/>
+        <whitePkg pkgName="com.microsoft.office.outlook"/>
+        <whitePkg pkgName="com.block.juggle"/>
+        <whitePkg pkgName="com.app.cricketapp"/>
+        <whitePkg pkgName="com.dts.freefiremax"/>
+        <whitePkg pkgName="com.dreamplug.androidapp"/>
+        <whitePkg pkgName="com.olx.southasia"/>
+        <whitePkg pkgName="in.cricketexchange.app.cricketexchange"/>
+        <whitePkg pkgName="com.vaibhavkalpe.android.khatabook"/>
+        <whitePkg pkgName="money.super.payments"/>
+        <whitePkg pkgName="net.one97.paytm"/>
+    </white-list>
+</filter-conf>

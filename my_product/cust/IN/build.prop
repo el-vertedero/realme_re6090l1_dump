@@ -1,0 +1,10 @@
+ro.oplus.radio.global_regionlock.info=IN
+ro.oplus.radio.global_regionlockflag=4
+ro.oplus.radio.global_regionlock.log=true
+ro.oplus.radio.global_regionlock.cert=1661243042741,IN
+ro.oplus.radio.global_regionlock.enabled=false
+setupwizard.feature.esim_enabled=false
+ro.vendor.oplus.radio.esim.feature=0
+ro.oplus.ml.auto_ab_enable=1
+persist.sys.oplus.bt.chre_ble_scan=true
+persist.sys.oplus.region=IN

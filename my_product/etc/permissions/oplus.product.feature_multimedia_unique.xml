@@ -1,0 +1,38 @@
+<oplus-config>
+    <!-- audio start -->
+    <!-- Zehua.Zhang@MULTIMEDIA.AUDIOSERVER.FRAMEWORK.2023/05/15. Add for media control -->
+    <oplus-feature name="oplus.software.audio.media_control"/>
+    <!-- #endif /* OPLUS_FEATURE_OPLUS_MEDIA_CONTROL */ -->
+    <!-- WangDong4@MULTIMEDIA.AUDIOSERVER.BASE, 2024/03/06, add for multi-application volume adjustment -->
+    <oplus-feature name="oplus.software.multi_app.volume.adjust.support"/>
+    <!-- Lvhongzhou@MULTIMEDIA.AUDIOSERVER.FRAMEWORK.2023/8/17. Add for speaker channel reserve -->
+    <oplus-feature name="oplus.software.audio.dualspk_support"/>
+    <!-- zhanglixia, 2023/05/30, Add for bluetooth volume sync -->
+    <oplus-feature name="oplus.software.bluetooth_volume_sync"/>
+    <!-- Mengdie.Zhou@MULTIMEDIA.AUDIOSERVER.EFFECT.2024/06/29. Add for audio effect combined -->
+    <oplus-feature name="oplus.software.audio.effect.combined"/>
+    <!-- audio end -->
+
+    <!-- nigaopeng@MM.MEDIASERVER.IMAGE, 2020/06/15, Add for heif capture feature start -->
+    <oplus-feature name="oplus.software.camera.heic_support" />
+    <!-- nigaopeng@MM.MEDIASERVER.IMAGE, 2020/06/15, Add for heif capture feature end -->
+    <!-- Haiping.bai@MULTIMEDIA.AUDIODRIVER, 2022/11/04, Add for lvacfs surround record  start-->
+    <oplus-feature name="oplus.software.video.surround_record_support"/>
+    <!-- Haiping.bai@MULTIMEDIA.AUDIODRIVER, 2021/11/04, Add for lvacfs surround record  end-->
+
+
+    <!-- Zehua.Zhang@MULTIMEDIA.AUDIOSERVER.FRAMEWORK.2023/05/15. Add for volume default adjust -->
+    <oplus-feature name="oplus.software.audio.volume_default_adjust"/>
+    <!-- Miao.Hu@MULTIMEDIA.AUDIOSERVER.HAL.2023/12/14. Add for voice denoise -->
+    <oplus-feature name="oplus.hardware.audio.voice_denoise_support_v2"/>
+
+    <!--liyong@MULTIMEDIA.DISPLAY.SERVICE, 2023/11/1, add for max brightness 600nit -->
+    <oplus-feature name="oplus.software.display.sec_max_brightness_rm"/>
+    <!-- sunchao@MULTIMEDIA, 2024/11/21, Add for Resolution -->
+    <oplus-feature name="oplus.software.display.resolution_switch_support" />
+    <oplus-feature name="oplus.software.display.resolution_switch_disableauto_support" />
+    <oplus-feature name="oplus.software.display.1.5k_resolution_switch_support" />
+    <!-- LiYong@MULTIMEDIA, 2025/3/3, Add for face fill light -->
+    <oplus-feature name="oplus.software.display.ui_disable_fill_light_animation" />
+
+</oplus-config>

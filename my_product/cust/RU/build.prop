@@ -1,0 +1,15 @@
+ro.oplus.radio.global_regionlockflag=9
+ro.oplus.radio.global_regionlock.log=true
+ro.oplus.radio.global_regionlock.cert=1661243252453,SG
+ro.oplus.radio.global_regionlock.info=RU
+ro.oplus.radio.global_regionlock.enabled=false
+ro.oplus.ml.auto_ab_enable=1
+persist.sys.oplus.bt.chre_ble_scan=true
+ro.com.google.clientidbase.pg3=
+setupwizard.feature.enable_quick_start_flow=
+setupwizard.feature.enable_quick_enhanced_biometrics_flow=
+ro.facebook.partnerid=
+ro.com.google.clientidbase.tx=
+ro.com.google.clientidbase.ms=
+ro.com.google.clientidbase.vs=
+ro.com.google.clientidbase.pg=

@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "wallpapers": [
+    {
+      "liveName": "realme_lafa_xcb.mp4",
+      "staticName": "realme_lafa_xcb.webp"
+    },
+	{
+      "liveName": "realme_wallpaper_a1.mp4",
+      "staticName": "inlay_wallpaper1.png"
+    },
+	{
+      "liveName": "realme_wallpaper_a2.mp4",
+      "staticName": "inlay_wallpaper2.png"
+    },
+	{
+      "liveName": "realme_wallpaper_a3.mp4",
+      "staticName": "inlay_wallpaper3.png"
+    },
+	{
+      "liveName": "realme_wallpaper_a4.mp4",
+      "staticName": "inlay_wallpaper4.png"
+    },
+	{
+      "liveName": "realme_wallpaper_a5.mp4",
+      "staticName": "inlay_wallpaper5.png"
+    }
+  ]
+}

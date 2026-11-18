@@ -1,0 +1,46 @@
+<oplus-config>
+<!-- WangJian@CONNECTIVITY.WIFI.ARCHITECHURE, 2020/06/16   -->
+    <oplus-feature name="oplus.software.wlan.assistant" />
+
+    <oplus-feature name="oplus.software.wlan.auto_reconnect" />
+
+    <oplus-feature name="oplus.software.wlan.connection_selfcure" />
+<!-- ZhaoXiang@CONNECTIVITY.WIFI.CONNECT.SMARTWIFI.3055896, 2022/2/25, Add for network switch between wifi and cell -->
+    <oplus-feature name="oplus.software.wlan.seamless_switch" />
+
+<!-- XuFenghua@CONNECTIVITY.WIFI.P2P.SMARTMCC.2371952, 2022/8/16, OPLUS_FEATURE_WIFI_CAPCENTER_SMARTMCC -->
+    <oplus-feature name="oplus.software.wlan_smart_mcc_enable" />
+
+<!-- liangenglin@CONNECTIVITY.WIFI.NETWORK, 2022/08/24, Add for wifi low latency  -->
+    <oplus-feature name="oplus.software.wlan.low_latency_v2" />
+
+<!-- WuJie@CONNECTIVITY.WIFI.BASIC.P2P.7433693, 2024/07/25, add for P2P 5G160M, precac for GO send-->
+    <oplus-feature name="oplus.software.wlan.p2p.5g160m" />
+    <oplus-feature name="oplus.software.wlan.precac.v1" />
+
+<!-- WuJie@CONNECTIVITY.WIFI.BASIC.SAP.8464026, 2025/03/25, add for fast share SAP 5G160M -->
+    <oplus-feature name="oplus.software.wlan.share_sap_5g160m" />
+
+<!-- ZhengDeng@CONNECTIVITY.WIFI.BASIC.P2P.3615099, 2022/09/15, add for AP-GC CONNECT -->
+    <oplus-feature name="oplus.software.wlan.ap_gc_connect" />
+
+<!-- LiuZixuan@CONNECTIVITY.WIFI.CONNECT.SAP.5470030, 2023/07/24, Add for SAP 5G160M feature -->
+    <oplus-feature name="oplus.software.wlan.5g_160M_softap" />
+<!-- LiuZixuan@CONNECTIVITY.WIFI.CONNECT.SAP.5470030, 2023/07/24, Add for SAP 5G160M feature -->
+    <oplus-feature name="oplus.software.wlan.5g_160M_station_for_phone_clone" />
+
+<!--  BT begin -->
+<!-- GaoShangxiu@CONNECTIVITY.BT.ARCHITECHURE, 2020/07/14   -->
+    <oplus-feature name="oplus.software.bt.absvolume_support" />
+    <oplus-feature name="oplus.software.bt.ble_scan_strategymode" />
+<!--  BT end -->
+<!--  NFC begin -->
+<!-- huangruhong@CONNECTIVITY.NFC.ARCHITECHURE, 2020/08/18,add for felica(NFC Card Emulation) toggle feature  -->
+    <oplus-feature name="oplus.software.nfc.felica_support" />
+<!--  NFC end -->
+
+    <!-- JinXuexue@CONNECTIVITY.WIFI.NETWORK.7059396, 2024/05/28 -->
+    <oplus-feature name="oplus.software.wlan.roam_opt" />
+    <!-- JinXuexue@CONNECTIVITY.WIFI.NETWORK.8345345, 2025/05/01 -->
+    <oplus-feature name="oplus.software.wlan.qoe_roaming" />
+</oplus-config>

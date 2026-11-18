@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<app version="1.0">
+  <enable pkg="com.android.contacts" priority="7"/>
+  <enable pkg="com.android.incallui" priority="7"/>
+  <disable pkg="com.applovin.array.apphub.vincere" priority="7"/>
+  <disable pkg="com.aura.oobe.appsettings" priority="7"/>
+  <del_disable pkg="com.cosyzone.finance" priority="7" name="Cosyzone.apk"/>
+  <disable pkg="com.google.android.apps.googleassistant" priority="7"/>
+  <enable pkg="com.oplus.aiwriter" priority="7"/>
+  <enable pkg="com.oplus.blacklistapp" priority="7"/>
+  <enable pkg="com.oplus.omoji" priority="7"/>
+  <enable pkg="com.oplus.phonenoareainquire" priority="7"/>
+  <disable pkg="com.realme.wellbeing" priority="7"/>
+  <enable pkg="com.ted.number" priority="7"/>
+</app>

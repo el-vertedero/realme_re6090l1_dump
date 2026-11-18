@@ -1,0 +1,4 @@
+    <vocalprominence-whitelist>
+        <name>com.android.server.telecom</name>
+        <attribute>1</attribute>
+    </vocalprominence-whitelist>

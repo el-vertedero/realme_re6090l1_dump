@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oplus-config>
+	<oplus-feature name="oplus.software.radio.enable_weak_signal_backoff"/>
+	<oplus-feature name="oplus.software.radio.sido_nr_icon_pingpong_opt"/>
+	<oplus-feature name="oplus.software.radio.sido_secure_signaling_boost_opt"/>
+	<oplus-feature name="oplus.software.radio.sido_rat_enhance_lte_backoff_opt"/>
+	<oplus-feature name="oplus.software.radio.sido_rat_enhance_nr_backoff_opt"/>
+</oplus-config>
+<!-- Timestamp 2024-10-08T09:55:38 #236484 -->

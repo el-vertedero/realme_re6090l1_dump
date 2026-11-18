@@ -1,0 +1,3 @@
+ro.oplus.ml.auto_ab_enable=1
+persist.sys.oplus.bt.chre_ble_scan=true
+persist.sys.oplus.region=TW

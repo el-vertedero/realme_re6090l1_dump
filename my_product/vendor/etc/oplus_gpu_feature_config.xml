@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<filter-conf>
+    <version>20240821</version>
+    <toggle>1</toggle>
+    <features>
+
+        <feature name="Switch2SkiaGL" enable="1">
+            <!-- 今日头条 -->
+            <application name="com.ss.android.article.news"></application>
+            <!-- 今日头条极速版 -->
+            <application name="com.ss.android.article.lite"></application>
+            <!-- 贝乐虎儿歌 -->
+            <application name="com.ubestkid.beilehu.android"></application>
+        </feature>
+    </features>
+</filter-conf>

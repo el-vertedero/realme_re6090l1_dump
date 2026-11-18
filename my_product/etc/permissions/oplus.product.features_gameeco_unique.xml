@@ -1,0 +1,11 @@
+<oplus-config>
+    <!-- Add for edr feature start -->
+    <oplus-feature name="oplus.software.display.game.hdr3.0_enable"/>
+    <!-- end -->
+    <!-- ZhangYelin @GAMEECO.COOLEFFECT.COOLEX, 2022/07/19, Add for coolex feature start -->
+    <oplus-feature name="oplus.software.coolex.support"/>
+    <!-- end -->
+    <!-- zhouyanfa @ANDROID.GMAE.base_common, 2025/07/07, Add for vulkan feature start -->
+    <oplus-feature name="oplus.software.display.game.support_vulkan"/>
+    <!-- end -->
+</oplus-config>
